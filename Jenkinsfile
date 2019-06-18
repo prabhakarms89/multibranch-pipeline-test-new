@@ -9,7 +9,7 @@ pipeline {
          stage('test') {
                   steps {
 			echo "testing FibonacciSeries.java file"
-			  sh 'javac multibranch-pipeline-test-new/FibonacciSeries.java'
+			  sh './ javac multibranch-pipeline-test-new/FibonacciSeries.java'
 			}          
                          
                        }			  

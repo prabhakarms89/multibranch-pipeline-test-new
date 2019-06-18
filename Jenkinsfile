@@ -1,6 +1,7 @@
-pipeline{
+pipeline {
+	agent any
      stages {
-	stage('build'){
+	stage('build') {
                   state {
                          echo "building successfull"
                          }

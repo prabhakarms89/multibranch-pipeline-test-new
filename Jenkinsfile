@@ -1,13 +1,14 @@
 pipeline{
      stages {
-	stage("build"){
+	stage('build'){
                   state {
                          echo "building successfull"
                          }
                        }   
-         stage("test") {
+         stage('test') {
                   state {
-			echo "testing succesfull"
+			echo "testing FibonacciSeries.java file"
+			  sh 'javac FibonacciSeries.java'
 			}          
                          
                        }			  

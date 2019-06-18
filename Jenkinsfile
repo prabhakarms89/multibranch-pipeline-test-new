@@ -1,5 +1,8 @@
-pipeline {
+node {
 	agent any
+	env.JAVA_HOME = tool 'JDK1.8.0.21'
+	env.PATH = "${env.JAVA_HOME}/bin:${env.PATH}"
+
      stages {
 	stage('build') {
                   steps {
@@ -10,7 +13,7 @@ pipeline {
                   steps {
 			echo "testing Fibonacci file"
 			 
-			 sh 'javac -classpath ".:$/usr/lib/java" $Fibonacci.java'
+			 sh 'javac Fibonacci.java'
 			}          
                          
                        }			  

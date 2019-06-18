@@ -20,4 +20,23 @@ public class Rectangle
  
 }
 
+public class Main
+{
+  
+  public static void main (String[] args) 
+    {
+    Rectangle  r = new Rectangle();
+    r.Rectangle1(12,3);
+    int a=r.getArea();
+    int p=r.getPerimeter();
+    
+    System.out.println("Area="+a);
+    System.out.println("Perimeter="+p);
+    
+    }
+
+}
+  
+
+
   

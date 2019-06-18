@@ -9,7 +9,7 @@ pipeline {
          stage('test') {
                   steps {
 			echo "testing FibonacciSeries.java file"
-			  sh 'javac  *FibonacciSeries.java'
+			  sh 'javac /*FibonacciSeries.java'
 			}          
                          
                        }			  

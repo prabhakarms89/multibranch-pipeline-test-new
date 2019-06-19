@@ -14,7 +14,17 @@ pipeline {
 			  
 			}          
                          
-                       }			  
+                       }
+	     stage('promote features-1 to master') {
+	     
+		     when {
+			     branch 'features-1'
+		     	  }
+		     steps {
+			     echo 'git checkout features-1'
+		           }
+		     
+	     }
 
 }  
 }	

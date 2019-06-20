@@ -1,0 +1,387 @@
+[2019-06-17 10:49:17Z INFO AgentProcess] Agent is built for Linux (X64) - linux-x64.
+[2019-06-17 10:49:17Z INFO AgentProcess] RuntimeInformation: Linux 4.14.121-109.96.amzn2.x86_64 #1 SMP Wed May 22 16:54:10 UTC 2019.
+[2019-06-17 10:49:17Z INFO AgentProcess] Version: 2.152.1
+[2019-06-17 10:49:17Z INFO AgentProcess] Commit: a402a5a177bcedea854590665d26c91ba03fa4d7
+[2019-06-17 10:49:17Z INFO AgentProcess] Culture: en-US
+[2019-06-17 10:49:17Z INFO AgentProcess] UI Culture: en-US
+[2019-06-17 10:49:17Z INFO HostContext] Well known directory 'Bin': '/home/ec2-user/azagent/bin'
+[2019-06-17 10:49:17Z INFO HostContext] Well known directory 'Root': '/home/ec2-user/azagent'
+[2019-06-17 10:49:17Z INFO AgentProcess] Validating directory permissions for: '/home/ec2-user/azagent'
+[2019-06-17 10:49:17Z INFO HostContext] Well known directory 'Bin': '/home/ec2-user/azagent/bin'
+[2019-06-17 10:49:17Z INFO HostContext] Well known directory 'Root': '/home/ec2-user/azagent'
+[2019-06-17 10:49:17Z INFO CommandLineParser] Parse
+[2019-06-17 10:49:17Z INFO CommandLineParser] Parsing 14 args
+[2019-06-17 10:49:17Z INFO CommandLineParser] parsing argument
+[2019-06-17 10:49:17Z INFO CommandLineParser] HasArgs: False
+[2019-06-17 10:49:17Z INFO CommandLineParser] Adding Command: configure
+[2019-06-17 10:49:17Z INFO CommandLineParser] parsing argument
+[2019-06-17 10:49:17Z INFO CommandLineParser] HasArgs: True
+[2019-06-17 10:49:17Z INFO CommandLineParser] arg: deploymentgroup
+[2019-06-17 10:49:17Z INFO CommandLineParser] parsing argument
+[2019-06-17 10:49:17Z INFO CommandLineParser] HasArgs: True
+[2019-06-17 10:49:17Z INFO CommandLineParser] arg: deploymentgroupname
+[2019-06-17 10:49:17Z INFO CommandLineParser] Adding flag: deploymentgroup
+[2019-06-17 10:49:17Z INFO CommandLineParser] parsing argument
+[2019-06-17 10:49:17Z INFO CommandLineParser] HasArgs: True
+[2019-06-17 10:49:17Z INFO CommandLineParser] Adding option 'deploymentgroupname': 'Dev Server Group'
+[2019-06-17 10:49:17Z INFO CommandLineParser] parsing argument
+[2019-06-17 10:49:17Z INFO CommandLineParser] HasArgs: True
+[2019-06-17 10:49:17Z INFO CommandLineParser] arg: acceptteeeula
+[2019-06-17 10:49:17Z INFO CommandLineParser] parsing argument
+[2019-06-17 10:49:17Z INFO CommandLineParser] HasArgs: True
+[2019-06-17 10:49:17Z INFO CommandLineParser] arg: agent
+[2019-06-17 10:49:17Z INFO CommandLineParser] Adding flag: acceptteeeula
+[2019-06-17 10:49:17Z INFO CommandLineParser] parsing argument
+[2019-06-17 10:49:17Z INFO CommandLineParser] HasArgs: True
+[2019-06-17 10:49:17Z INFO CommandLineParser] Adding option 'agent': 'ip-172-31-21-77.us-east-2.compute.internal'
+[2019-06-17 10:49:17Z INFO CommandLineParser] parsing argument
+[2019-06-17 10:49:17Z INFO CommandLineParser] HasArgs: True
+[2019-06-17 10:49:17Z INFO CommandLineParser] arg: url
+[2019-06-17 10:49:17Z INFO CommandLineParser] parsing argument
+[2019-06-17 10:49:17Z INFO CommandLineParser] HasArgs: True
+[2019-06-17 10:49:17Z INFO CommandLineParser] Adding option 'url': 'https://dev.azure.com/punjabidrashti/'
+[2019-06-17 10:49:17Z INFO CommandLineParser] parsing argument
+[2019-06-17 10:49:17Z INFO CommandLineParser] HasArgs: True
+[2019-06-17 10:49:17Z INFO CommandLineParser] arg: work
+[2019-06-17 10:49:17Z INFO CommandLineParser] parsing argument
+[2019-06-17 10:49:17Z INFO CommandLineParser] HasArgs: True
+[2019-06-17 10:49:17Z INFO CommandLineParser] Adding option 'work': '_work'
+[2019-06-17 10:49:17Z INFO CommandLineParser] parsing argument
+[2019-06-17 10:49:17Z INFO CommandLineParser] HasArgs: True
+[2019-06-17 10:49:17Z INFO CommandLineParser] arg: projectname
+[2019-06-17 10:49:17Z INFO CommandLineParser] parsing argument
+[2019-06-17 10:49:17Z INFO CommandLineParser] HasArgs: True
+[2019-06-17 10:49:17Z INFO CommandLineParser] Adding option 'projectname': 'Demo'
+[2019-06-17 10:49:17Z INFO CommandLineParser] parsing argument
+[2019-06-17 10:49:17Z INFO CommandLineParser] HasArgs: True
+[2019-06-17 10:49:17Z INFO CommandLineParser] arg: runasservice
+[2019-06-17 10:49:17Z INFO AgentProcess] Arguments parsed
+[2019-06-17 10:49:17Z INFO HostContext] Well known directory 'Bin': '/home/ec2-user/azagent/bin'
+[2019-06-17 10:49:17Z INFO HostContext] Well known directory 'Root': '/home/ec2-user/azagent'
+[2019-06-17 10:49:17Z INFO HostContext] Well known config file 'Proxy': '/home/ec2-user/azagent/.proxy'
+[2019-06-17 10:49:17Z INFO VstsAgentWebProxy] No proxy setting found.
+[2019-06-17 10:49:17Z INFO HostContext] Well known directory 'Bin': '/home/ec2-user/azagent/bin'
+[2019-06-17 10:49:17Z INFO HostContext] Well known directory 'Root': '/home/ec2-user/azagent'
+[2019-06-17 10:49:17Z INFO HostContext] Well known config file 'Certificates': '/home/ec2-user/azagent/.certificates'
+[2019-06-17 10:49:17Z INFO AgentCertificateManager] No certificate setting found.
+[2019-06-17 10:49:17Z INFO Agent] ExecuteCommand
+[2019-06-17 10:49:17Z INFO ConfigurationStore] currentAssemblyLocation: /home/ec2-user/azagent/bin/Agent.Listener.dll
+[2019-06-17 10:49:17Z INFO HostContext] Well known directory 'Bin': '/home/ec2-user/azagent/bin'
+[2019-06-17 10:49:17Z INFO ConfigurationStore] binPath: /home/ec2-user/azagent/bin
+[2019-06-17 10:49:17Z INFO HostContext] Well known directory 'Bin': '/home/ec2-user/azagent/bin'
+[2019-06-17 10:49:17Z INFO HostContext] Well known directory 'Root': '/home/ec2-user/azagent'
+[2019-06-17 10:49:17Z INFO ConfigurationStore] RootFolder: /home/ec2-user/azagent
+[2019-06-17 10:49:17Z INFO HostContext] Well known directory 'Bin': '/home/ec2-user/azagent/bin'
+[2019-06-17 10:49:17Z INFO HostContext] Well known directory 'Root': '/home/ec2-user/azagent'
+[2019-06-17 10:49:17Z INFO HostContext] Well known config file 'Agent': '/home/ec2-user/azagent/.agent'
+[2019-06-17 10:49:17Z INFO ConfigurationStore] ConfigFilePath: /home/ec2-user/azagent/.agent
+[2019-06-17 10:49:17Z INFO HostContext] Well known directory 'Bin': '/home/ec2-user/azagent/bin'
+[2019-06-17 10:49:17Z INFO HostContext] Well known directory 'Root': '/home/ec2-user/azagent'
+[2019-06-17 10:49:17Z INFO HostContext] Well known config file 'Credentials': '/home/ec2-user/azagent/.credentials'
+[2019-06-17 10:49:17Z INFO ConfigurationStore] CredFilePath: /home/ec2-user/azagent/.credentials
+[2019-06-17 10:49:17Z INFO HostContext] Well known directory 'Bin': '/home/ec2-user/azagent/bin'
+[2019-06-17 10:49:17Z INFO HostContext] Well known directory 'Root': '/home/ec2-user/azagent'
+[2019-06-17 10:49:17Z INFO HostContext] Well known config file 'Service': '/home/ec2-user/azagent/.service'
+[2019-06-17 10:49:17Z INFO ConfigurationStore] ServiceConfigFilePath: /home/ec2-user/azagent/.service
+[2019-06-17 10:49:17Z INFO HostContext] Well known directory 'Bin': '/home/ec2-user/azagent/bin'
+[2019-06-17 10:49:17Z INFO HostContext] Well known directory 'Root': '/home/ec2-user/azagent'
+[2019-06-17 10:49:17Z INFO HostContext] Well known config file 'Autologon': '/home/ec2-user/azagent/.autologon'
+[2019-06-17 10:49:17Z INFO ConfigurationStore] AutoLogonSettingsFilePath: /home/ec2-user/azagent/.autologon
+[2019-06-17 10:49:17Z INFO HostContext] Well known directory 'Bin': '/home/ec2-user/azagent/bin'
+[2019-06-17 10:49:17Z INFO HostContext] Well known directory 'Root': '/home/ec2-user/azagent'
+[2019-06-17 10:49:17Z INFO HostContext] Well known config file 'Options': '/home/ec2-user/azagent/.options'
+[2019-06-17 10:49:17Z INFO ConfigurationStore] RuntimeOptionsFilePath: /home/ec2-user/azagent/.options
+[2019-06-17 10:49:17Z INFO CommandSettings] Flag 'help': 'False'
+[2019-06-17 10:49:17Z INFO CommandSettings] Flag 'version': 'False'
+[2019-06-17 10:49:17Z INFO CommandSettings] Flag 'commit': 'False'
+[2019-06-17 10:49:17Z INFO CommandSettings] Command 'configure': 'True'
+[2019-06-17 10:49:17Z INFO ConfigurationManager] ConfigureAsync
+[2019-06-17 10:49:17Z INFO ConfigurationStore] IsConfigured()
+[2019-06-17 10:49:17Z INFO ConfigurationStore] IsConfigured: False
+[2019-06-17 10:49:17Z INFO ConfigurationManager] Is configured: False
+[2019-06-17 10:49:17Z INFO CommandSettings] Flag 'sslskipcertvalidation': 'False'
+[2019-06-17 10:49:17Z INFO Terminal] WRITE LINE: 
+[2019-06-17 10:49:17Z INFO Terminal] WRITE LINE: >> End User License Agreements:
+[2019-06-17 10:49:17Z INFO Terminal] WRITE LINE: 
+[2019-06-17 10:49:17Z INFO HostContext] Well known directory 'Bin': '/home/ec2-user/azagent/bin'
+[2019-06-17 10:49:17Z INFO HostContext] Well known directory 'Root': '/home/ec2-user/azagent'
+[2019-06-17 10:49:17Z INFO HostContext] Well known directory 'Externals': '/home/ec2-user/azagent/externals'
+[2019-06-17 10:49:17Z INFO Terminal] WRITE LINE: Building sources from a TFVC repository requires accepting the Team Explorer Everywhere End User License Agreement. This step is not required for building sources from Git repositories.
+
+A copy of the Team Explorer Everywhere license agreement can be found at:
+  /home/ec2-user/azagent/externals/tee/license.html
+[2019-06-17 10:49:17Z INFO Terminal] WRITE LINE: 
+[2019-06-17 10:49:17Z INFO CommandSettings] Flag 'acceptteeeula': 'True'
+[2019-06-17 10:49:17Z INFO CommandSettings] Flag 'machinegroup': 'False'
+[2019-06-17 10:49:17Z INFO CommandSettings] Flag 'deploymentgroup': 'True'
+[2019-06-17 10:49:17Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Listener.Configuration.IConfigurationProvider'
+[2019-06-17 10:49:17Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.BuildReleasesAgentConfigProvider, Agent.Listener
+[2019-06-17 10:49:17Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.DeploymentGroupAgentConfigProvider, Agent.Listener
+[2019-06-17 10:49:17Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.SharedDeploymentAgentConfigProvider, Agent.Listener
+[2019-06-17 10:49:17Z INFO Terminal] WRITE LINE: 
+[2019-06-17 10:49:17Z INFO Terminal] WRITE LINE: >> Connect:
+[2019-06-17 10:49:17Z INFO Terminal] WRITE LINE: 
+[2019-06-17 10:49:17Z INFO CommandSettings] Arg 'url': 'https://dev.azure.com/punjabidrashti/'
+[2019-06-17 10:49:17Z INFO CommandSettings] Remove url from Arg dictionary.
+[2019-06-17 10:49:17Z INFO DeploymentGroupAgentConfigProvider] url - https://dev.azure.com/punjabidrashti/
+[2019-06-17 10:49:17Z INFO ConfigurationManager] GetCredentialProvider
+[2019-06-17 10:49:17Z INFO CommandSettings] Arg 'auth': ''
+[2019-06-17 10:49:17Z INFO CommandSettings] Flag 'unattended': 'False'
+[2019-06-17 10:49:17Z INFO PromptManager] ReadValue
+[2019-06-17 10:49:17Z INFO Terminal] WRITE: Enter authentication type (press enter for PAT) > 
+[2019-06-17 10:49:17Z INFO Terminal] READ LINE
+[2019-06-17 10:50:09Z INFO Terminal] Read value: '6n6tuqv4r5wigrmlmc7kf3j4rbdsvromwzlmbmt2i2ryumg2ln6a'
+[2019-06-17 10:50:09Z INFO PromptManager] Invalid value.
+[2019-06-17 10:50:09Z INFO Terminal] WRITE LINE: Enter a valid value for authentication type.
+[2019-06-17 10:50:09Z INFO Terminal] WRITE: Enter authentication type (press enter for PAT) > 
+[2019-06-17 10:50:09Z INFO Terminal] READ LINE
+[2019-06-17 10:50:18Z INFO Terminal] Read value: ''
+[2019-06-17 10:50:18Z INFO PromptManager] Falling back to the default: 'PAT'
+[2019-06-17 10:50:18Z INFO ConfigurationManager] Creating credential for auth: PAT
+[2019-06-17 10:50:18Z INFO CredentialManager] GetCredentialProvider
+[2019-06-17 10:50:18Z INFO CredentialManager] Creating type PAT
+[2019-06-17 10:50:18Z INFO CredentialManager] Creating credential type: PAT
+[2019-06-17 10:50:18Z INFO PersonalAccessToken] EnsureCredential
+[2019-06-17 10:50:18Z INFO CommandSettings] Arg 'token': ''
+[2019-06-17 10:50:18Z INFO CommandSettings] Flag 'unattended': 'False'
+[2019-06-17 10:50:18Z INFO PromptManager] ReadValue
+[2019-06-17 10:50:18Z INFO Terminal] WRITE: Enter personal access token > 
+[2019-06-17 10:50:18Z INFO Terminal] READ SECRET
+[2019-06-17 10:50:29Z INFO Terminal] Read value: '***'
+[2019-06-17 10:50:29Z INFO PersonalAccessToken] GetVssCredentials
+[2019-06-17 10:50:29Z INFO PersonalAccessToken] token retrieved: 52 chars
+[2019-06-17 10:50:29Z INFO PersonalAccessToken] cred created
+[2019-06-17 10:50:29Z INFO ConfigurationManager] cred retrieved
+[2019-06-17 10:50:29Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2019-06-17 10:50:32Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2019-06-17 10:50:32Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2019-06-17 10:50:33Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2019-06-17 10:50:33Z INFO ConfigurationManager] Server deployment type: Hosted
+[2019-06-17 10:50:33Z INFO Terminal] WRITE LINE: Connecting to server ...
+[2019-06-17 10:50:33Z INFO DeploymentGroupAgentConfigProvider] Test connection with deployment group
+[2019-06-17 10:50:33Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2019-06-17 10:50:33Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2019-06-17 10:50:34Z INFO DeploymentGroupAgentConfigProvider] Connect complete for deployment group
+[2019-06-17 10:50:34Z INFO ConfigurationManager] Test Connection complete.
+[2019-06-17 10:50:34Z INFO HostContext] Well known directory 'Bin': '/home/ec2-user/azagent/bin'
+[2019-06-17 10:50:34Z INFO HostContext] Well known directory 'Root': '/home/ec2-user/azagent'
+[2019-06-17 10:50:34Z INFO HostContext] Well known config file 'RSACredentials': '/home/ec2-user/azagent/.credentials_rsaparams'
+[2019-06-17 10:50:34Z INFO RSAFileKeyManager] Creating new RSA key using 2048-bit key length
+[2019-06-17 10:50:34Z INFO RSAFileKeyManager] Successfully saved RSA key parameters to file /home/ec2-user/azagent/.credentials_rsaparams
+[2019-06-17 10:50:34Z INFO RSAFileKeyManager] Which: 'chmod'
+[2019-06-17 10:50:34Z INFO RSAFileKeyManager] Location: '{matches.First()}'
+[2019-06-17 10:50:34Z INFO HostContext] Well known directory 'Bin': '/home/ec2-user/azagent/bin'
+[2019-06-17 10:50:34Z INFO HostContext] Well known directory 'Root': '/home/ec2-user/azagent'
+[2019-06-17 10:50:34Z INFO ProcessInvokerWrapper] Starting process:
+[2019-06-17 10:50:34Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/chmod'
+[2019-06-17 10:50:34Z INFO ProcessInvokerWrapper]   Arguments: '600 /home/ec2-user/azagent/.credentials_rsaparams'
+[2019-06-17 10:50:34Z INFO ProcessInvokerWrapper]   Working directory: '/home/ec2-user/azagent'
+[2019-06-17 10:50:34Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2019-06-17 10:50:34Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2019-06-17 10:50:34Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2019-06-17 10:50:34Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2019-06-17 10:50:34Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2019-06-17 10:50:34Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2019-06-17 10:50:34Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2019-06-17 10:50:34Z INFO ProcessInvokerWrapper] Failed to update oom_score_adj for PID: 3841.
+[2019-06-17 10:50:34Z INFO ProcessInvokerWrapper] System.UnauthorizedAccessException: Access to the path '/proc/3841/oom_score_adj' is denied. ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.WriteAllText(String path, String contents)
+   at Microsoft.VisualStudio.Services.Agent.Util.ProcessInvoker.WriteProcessOomScoreAdj(Int32 processId, Int32 oomScoreAdj)
+[2019-06-17 10:50:34Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2019-06-17 10:50:34Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2019-06-17 10:50:34Z INFO ProcessInvokerWrapper] Process started with process id 3841, waiting for process exit.
+[2019-06-17 10:50:34Z INFO ProcessInvokerWrapper] Finished process 3841 with exit code 0, and elapsed time 00:00:00.0279870.
+[2019-06-17 10:50:34Z INFO RSAFileKeyManager] Successfully set permissions for RSA key parameters file /home/ec2-user/azagent/.credentials_rsaparams
+[2019-06-17 10:50:34Z INFO Terminal] WRITE LINE: 
+[2019-06-17 10:50:34Z INFO Terminal] WRITE LINE: >> Register Agent:
+[2019-06-17 10:50:34Z INFO Terminal] WRITE LINE: 
+[2019-06-17 10:50:34Z INFO CommandSettings] Arg 'projectname': 'Demo'
+[2019-06-17 10:50:34Z INFO CommandSettings] Remove projectname from Arg dictionary.
+[2019-06-17 10:50:34Z INFO CommandSettings] Arg 'deploymentgroupname': 'Dev Server Group'
+[2019-06-17 10:50:34Z INFO CommandSettings] Remove deploymentgroupname from Arg dictionary.
+[2019-06-17 10:50:35Z INFO DeploymentGroupAgentConfigProvider] Found deployment group Dev Server Group with id 9
+[2019-06-17 10:50:35Z INFO DeploymentGroupAgentConfigProvider] PoolId for deployment group 'Dev Server Group' is '9'.
+[2019-06-17 10:50:35Z INFO DeploymentGroupAgentConfigProvider] Project id for deployment group 'Dev Server Group' is 'ecd57254-8328-44a2-b771-8503bfe1b127'.
+[2019-06-17 10:50:35Z INFO CommandSettings] Arg 'agent': 'ip-172-31-21-77.us-east-2.compute.internal'
+[2019-06-17 10:50:35Z INFO CommandSettings] Remove agent from Arg dictionary.
+[2019-06-17 10:50:35Z INFO Terminal] WRITE LINE: Scanning for tool capabilities.
+[2019-06-17 10:50:35Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Capabilities.ICapabilitiesProvider'
+[2019-06-17 10:50:35Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.AgentCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2019-06-17 10:50:35Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.EnvironmentCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2019-06-17 10:50:35Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.NixCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2019-06-17 10:50:35Z INFO EnvironmentCapabilitiesProvider] Adding '_': './bin/Agent.Listener'
+[2019-06-17 10:50:35Z INFO EnvironmentCapabilitiesProvider] Adding 'HISTCONTROL': 'ignoredups'
+[2019-06-17 10:50:35Z INFO EnvironmentCapabilitiesProvider] Adding 'HISTSIZE': '1000'
+[2019-06-17 10:50:35Z INFO EnvironmentCapabilitiesProvider] Adding 'HOME': '/home/ec2-user'
+[2019-06-17 10:50:35Z INFO EnvironmentCapabilitiesProvider] Adding 'HOSTNAME': 'ip-172-31-21-77.us-east-2.compute.internal'
+[2019-06-17 10:50:35Z INFO EnvironmentCapabilitiesProvider] Adding 'LANG': 'en_US.UTF-8'
+[2019-06-17 10:50:35Z INFO EnvironmentCapabilitiesProvider] Adding 'LESSOPEN': '||/usr/bin/lesspipe.sh %s'
+[2019-06-17 10:50:35Z INFO EnvironmentCapabilitiesProvider] Adding 'LOGNAME': 'ec2-user'
+[2019-06-17 10:50:35Z INFO EnvironmentCapabilitiesProvider] Skipping: 'LS_COLORS'
+[2019-06-17 10:50:35Z INFO EnvironmentCapabilitiesProvider] Adding 'MAIL': '/var/spool/mail/ec2-user'
+[2019-06-17 10:50:35Z INFO EnvironmentCapabilitiesProvider] Adding 'OLDPWD': '/home/ec2-user/azagent'
+[2019-06-17 10:50:35Z INFO EnvironmentCapabilitiesProvider] Adding 'PATH': '/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/ec2-user/.local/bin:/home/ec2-user/bin'
+[2019-06-17 10:50:35Z INFO EnvironmentCapabilitiesProvider] Adding 'PWD': '/home/ec2-user/azagent'
+[2019-06-17 10:50:35Z INFO EnvironmentCapabilitiesProvider] Adding 'SHELL': '/bin/bash'
+[2019-06-17 10:50:35Z INFO EnvironmentCapabilitiesProvider] Skipping: 'SHLVL'
+[2019-06-17 10:50:35Z INFO EnvironmentCapabilitiesProvider] Adding 'SSH_CLIENT': '103.252.24.153 49999 22'
+[2019-06-17 10:50:35Z INFO EnvironmentCapabilitiesProvider] Adding 'SSH_CONNECTION': '103.252.24.153 49999 172.31.21.77 22'
+[2019-06-17 10:50:35Z INFO EnvironmentCapabilitiesProvider] Adding 'SSH_TTY': '/dev/pts/0'
+[2019-06-17 10:50:35Z INFO EnvironmentCapabilitiesProvider] Skipping: 'TERM'
+[2019-06-17 10:50:35Z INFO EnvironmentCapabilitiesProvider] Adding 'USER': 'ec2-user'
+[2019-06-17 10:50:35Z INFO EnvironmentCapabilitiesProvider] Adding 'XDG_RUNTIME_DIR': '/run/user/1000'
+[2019-06-17 10:50:35Z INFO EnvironmentCapabilitiesProvider] Adding 'XDG_SESSION_ID': '1'
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Which: 'android'
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Not found.
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Checking file: 'tools/android'
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Checking file: '/home/ec2-user/Library/Developer/Xamarin/android-sdk-macosx/tools/android'
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Which: 'ant'
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Not found.
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Which: 'waagent'
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Not found.
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Which: 'bundle'
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Not found.
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Which: 'clang'
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Not found.
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Which: 'cmake'
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Not found.
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Which: 'curl'
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Adding 'curl': '/usr/bin/curl'
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Which: 'docker'
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Not found.
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Which: 'git'
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Adding 'git': '/usr/bin/git'
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Which: 'gulp'
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Not found.
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Which: 'java'
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Adding 'java': '/usr/bin/java'
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Which: 'javac'
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Not found.
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Which: 'make'
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Adding 'make': '/usr/bin/make'
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Which: 'mvn'
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Not found.
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Which: 'xbuild'
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Not found.
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Mono.framework/Commands/xbuild'
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Which: 'msbuild'
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Not found.
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Mono.framework/Commands/msbuild'
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Which: 'node'
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Not found.
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Which: 'nodejs'
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Not found.
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Which: 'npm'
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Not found.
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Which: 'python'
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Adding 'python': '/usr/bin/python'
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Which: 'python3'
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Not found.
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Which: 'sh'
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Adding 'sh': '/usr/bin/sh'
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Which: 'svn'
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Not found.
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Which: 'ruby'
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Not found.
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Which: 'rake'
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Not found.
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Which: 'svn'
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Not found.
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Which: 'mdtool'
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Not found.
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Checking file: '/Applications/Xamarin Studio.app/Contents/MacOS/mdtool'
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Checking file: '/Applications/Visual Studio.app/Contents/MacOS/vstool'
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Which: 'generator'
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Not found.
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Xamarin.Android.framework/Commands/generator'
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Xamarin.Android.framework/Versions/Current/Version'
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Which: 'xcode-select'
+[2019-06-17 10:50:35Z INFO CapabilitiesBuilder] Not found.
+[2019-06-17 10:50:35Z INFO AgentCapabilitiesProvider] Adding 'Agent.Name': 'ip-172-31-21-77.us-east-2.compute.internal'
+[2019-06-17 10:50:35Z INFO AgentCapabilitiesProvider] Adding 'Agent.OS': 'Linux'
+[2019-06-17 10:50:35Z INFO AgentCapabilitiesProvider] Adding 'Agent.OSArchitecture': 'X64'
+[2019-06-17 10:50:35Z INFO AgentCapabilitiesProvider] Adding 'InteractiveSession': 'True'
+[2019-06-17 10:50:35Z INFO AgentCapabilitiesProvider] Adding 'Agent.Version': '2.152.1'
+[2019-06-17 10:50:35Z INFO AgentCapabilitiesProvider] Adding 'Agent.ComputerName': 'ip-172-31-21-77'
+[2019-06-17 10:50:35Z INFO HostContext] Well known directory 'Bin': '/home/ec2-user/azagent/bin'
+[2019-06-17 10:50:35Z INFO HostContext] Well known directory 'Root': '/home/ec2-user/azagent'
+[2019-06-17 10:50:35Z INFO AgentCapabilitiesProvider] Adding 'Agent.HomeDirectory': '/home/ec2-user/azagent'
+[2019-06-17 10:50:35Z INFO Terminal] WRITE LINE: Connecting to the server.
+[2019-06-17 10:50:35Z INFO DeploymentGroupAgentConfigProvider] GetAzureSubscriptionId ex: Response status code does not indicate success: 404 (Not Found).
+[2019-06-17 10:50:36Z INFO CommandSettings] Flag 'addmachinegrouptags': 'False'
+[2019-06-17 10:50:36Z INFO CommandSettings] Flag 'adddeploymentgrouptags': 'False'
+[2019-06-17 10:50:36Z INFO CommandSettings] Flag 'unattended': 'False'
+[2019-06-17 10:50:36Z INFO PromptManager] ReadValue
+[2019-06-17 10:50:36Z INFO Terminal] WRITE: Enter deployment group tags for agent? (Y/N) (press enter for N) > 
+[2019-06-17 10:50:36Z INFO Terminal] READ LINE
+[2019-06-17 10:50:44Z INFO Terminal] Read value: 'y'
+[2019-06-17 10:50:44Z INFO CommandSettings] Arg 'deploymentgrouptags': ''
+[2019-06-17 10:50:44Z INFO CommandSettings] Flag 'unattended': 'False'
+[2019-06-17 10:50:44Z INFO PromptManager] ReadValue
+[2019-06-17 10:50:44Z INFO Terminal] WRITE: Enter Comma separated list of tags (e.g web, db) > 
+[2019-06-17 10:50:44Z INFO Terminal] READ LINE
+[2019-06-17 10:50:53Z INFO Terminal] Read value: 'db'
+[2019-06-17 10:50:53Z INFO DeploymentGroupAgentConfigProvider] Given tags - db will be processed and added
+[2019-06-17 10:50:53Z INFO DeploymentGroupAgentConfigProvider] Adding tags - db
+[2019-06-17 10:50:53Z INFO Terminal] WRITE LINE: Tags added successfully
+[2019-06-17 10:50:53Z INFO Terminal] WRITE LINE: Successfully added the agent
+[2019-06-17 10:50:53Z INFO ConfigurationManager] Agent server url resolve by server: 'https://dev.azure.com/punjabidrashti/'.
+[2019-06-17 10:50:53Z INFO ConfigurationStore] Saving OAuth credential @ /home/ec2-user/azagent/.credentials
+[2019-06-17 10:50:53Z INFO ConfigurationStore] Credentials Saved.
+[2019-06-17 10:50:53Z INFO Terminal] WRITE LINE: Testing agent connection.
+[2019-06-17 10:50:53Z INFO ConfigurationStore] HasCredentials()
+[2019-06-17 10:50:53Z INFO ConfigurationStore] stored True
+[2019-06-17 10:50:53Z INFO CredentialManager] GetCredentialProvider
+[2019-06-17 10:50:53Z INFO CredentialManager] Creating type OAuth
+[2019-06-17 10:50:53Z INFO CredentialManager] Creating credential type: OAuth
+[2019-06-17 10:50:53Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ec2-user/azagent/.credentials_rsaparams
+[2019-06-17 10:50:53Z INFO AgentServer] Establish connection with 100 seconds timeout.
+[2019-06-17 10:50:53Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2019-06-17 10:50:54Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2019-06-17 10:50:56Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2019-06-17 10:50:56Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2019-06-17 10:50:57Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2019-06-17 10:50:58Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2019-06-17 10:50:58Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2019-06-17 10:50:58Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2019-06-17 10:50:59Z INFO CommandSettings] Arg 'work': '_work'
+[2019-06-17 10:50:59Z INFO CommandSettings] Remove work from Arg dictionary.
+[2019-06-17 10:50:59Z INFO ConfigurationStore] Saving agent settings.
+[2019-06-17 10:50:59Z INFO ConfigurationStore] Settings Saved.
+[2019-06-17 10:50:59Z INFO Terminal] WRITE LINE: 2019-06-17 10:50:59Z: Settings Saved.
+[2019-06-17 10:50:59Z INFO SystemDControlManager] Service name 'vsts.agent.punjabidrashti.Demo-Dev Server Group.ip-172-31-21-77.us-east-.service' display name 'Azure Pipelines Agent (punjabidrashti.Demo-Dev Server Group.ip-172-31-21-77.us-east-2.compute.internal)' will be used for service configuration.
+[2019-06-17 10:50:59Z INFO HostContext] Well known directory 'Bin': '/home/ec2-user/azagent/bin'
+[2019-06-17 10:50:59Z INFO HostContext] Well known directory 'Root': '/home/ec2-user/azagent'
+[2019-06-17 10:50:59Z INFO HostContext] Well known directory 'Bin': '/home/ec2-user/azagent/bin'
+[2019-06-17 10:50:59Z INFO HostContext] Well known directory 'Bin': '/home/ec2-user/azagent/bin'
+[2019-06-17 10:50:59Z INFO HostContext] Well known directory 'Root': '/home/ec2-user/azagent'
+[2019-06-17 10:50:59Z INFO UnixUtil] Which: 'chmod'
+[2019-06-17 10:50:59Z INFO UnixUtil] Location: '{matches.First()}'
+[2019-06-17 10:50:59Z INFO UnixUtil] Running /usr/bin/chmod 755 "/home/ec2-user/azagent/svc.sh"
+[2019-06-17 10:50:59Z INFO ProcessInvokerWrapper] Starting process:
+[2019-06-17 10:50:59Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/chmod'
+[2019-06-17 10:50:59Z INFO ProcessInvokerWrapper]   Arguments: '755 "/home/ec2-user/azagent/svc.sh"'
+[2019-06-17 10:50:59Z INFO ProcessInvokerWrapper]   Working directory: '/home/ec2-user/azagent'
+[2019-06-17 10:50:59Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2019-06-17 10:50:59Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2019-06-17 10:50:59Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2019-06-17 10:50:59Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2019-06-17 10:50:59Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2019-06-17 10:50:59Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2019-06-17 10:50:59Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2019-06-17 10:50:59Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 3859.
+[2019-06-17 10:50:59Z INFO ProcessInvokerWrapper] Process started with process id 3859, waiting for process exit.
+[2019-06-17 10:50:59Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2019-06-17 10:50:59Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2019-06-17 10:50:59Z INFO ProcessInvokerWrapper] Finished process 3859 with exit code 0, and elapsed time 00:00:00.0085014.

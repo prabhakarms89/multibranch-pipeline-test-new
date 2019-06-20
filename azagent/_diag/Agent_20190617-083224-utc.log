@@ -1,0 +1,144 @@
+[2019-06-17 08:32:24Z INFO AgentProcess] Agent is built for Linux (X64) - linux-x64.
+[2019-06-17 08:32:24Z INFO AgentProcess] RuntimeInformation: Linux 4.14.114-105.126.amzn2.x86_64 #1 SMP Tue May 7 02:26:40 UTC 2019.
+[2019-06-17 08:32:24Z INFO AgentProcess] Version: 2.152.1
+[2019-06-17 08:32:24Z INFO AgentProcess] Commit: a402a5a177bcedea854590665d26c91ba03fa4d7
+[2019-06-17 08:32:24Z INFO AgentProcess] Culture: en-US
+[2019-06-17 08:32:24Z INFO AgentProcess] UI Culture: en-US
+[2019-06-17 08:32:24Z INFO HostContext] Well known directory 'Bin': '/home/ec2-user/azagent/bin'
+[2019-06-17 08:32:24Z INFO HostContext] Well known directory 'Root': '/home/ec2-user/azagent'
+[2019-06-17 08:32:24Z INFO AgentProcess] Validating directory permissions for: '/home/ec2-user/azagent'
+[2019-06-17 08:32:24Z INFO HostContext] Well known directory 'Bin': '/home/ec2-user/azagent/bin'
+[2019-06-17 08:32:24Z INFO HostContext] Well known directory 'Root': '/home/ec2-user/azagent'
+[2019-06-17 08:32:24Z INFO CommandLineParser] Parse
+[2019-06-17 08:32:24Z INFO CommandLineParser] Parsing 14 args
+[2019-06-17 08:32:24Z INFO CommandLineParser] parsing argument
+[2019-06-17 08:32:24Z INFO CommandLineParser] HasArgs: False
+[2019-06-17 08:32:24Z INFO CommandLineParser] Adding Command: configure
+[2019-06-17 08:32:24Z INFO CommandLineParser] parsing argument
+[2019-06-17 08:32:24Z INFO CommandLineParser] HasArgs: True
+[2019-06-17 08:32:24Z INFO CommandLineParser] arg: deploymentgroup
+[2019-06-17 08:32:24Z INFO CommandLineParser] parsing argument
+[2019-06-17 08:32:24Z INFO CommandLineParser] HasArgs: True
+[2019-06-17 08:32:24Z INFO CommandLineParser] arg: deploymentgroupname
+[2019-06-17 08:32:24Z INFO CommandLineParser] Adding flag: deploymentgroup
+[2019-06-17 08:32:24Z INFO CommandLineParser] parsing argument
+[2019-06-17 08:32:24Z INFO CommandLineParser] HasArgs: True
+[2019-06-17 08:32:24Z INFO CommandLineParser] Adding option 'deploymentgroupname': 'Dev Server Group'
+[2019-06-17 08:32:24Z INFO CommandLineParser] parsing argument
+[2019-06-17 08:32:24Z INFO CommandLineParser] HasArgs: True
+[2019-06-17 08:32:24Z INFO CommandLineParser] arg: acceptteeeula
+[2019-06-17 08:32:24Z INFO CommandLineParser] parsing argument
+[2019-06-17 08:32:24Z INFO CommandLineParser] HasArgs: True
+[2019-06-17 08:32:24Z INFO CommandLineParser] arg: agent
+[2019-06-17 08:32:24Z INFO CommandLineParser] Adding flag: acceptteeeula
+[2019-06-17 08:32:24Z INFO CommandLineParser] parsing argument
+[2019-06-17 08:32:24Z INFO CommandLineParser] HasArgs: True
+[2019-06-17 08:32:24Z INFO CommandLineParser] Adding option 'agent': 'ip-172-31-21-77.us-east-2.compute.internal'
+[2019-06-17 08:32:24Z INFO CommandLineParser] parsing argument
+[2019-06-17 08:32:24Z INFO CommandLineParser] HasArgs: True
+[2019-06-17 08:32:24Z INFO CommandLineParser] arg: url
+[2019-06-17 08:32:24Z INFO CommandLineParser] parsing argument
+[2019-06-17 08:32:24Z INFO CommandLineParser] HasArgs: True
+[2019-06-17 08:32:24Z INFO CommandLineParser] Adding option 'url': 'https://dev.azure.com/punjabidrashti/'
+[2019-06-17 08:32:24Z INFO CommandLineParser] parsing argument
+[2019-06-17 08:32:24Z INFO CommandLineParser] HasArgs: True
+[2019-06-17 08:32:24Z INFO CommandLineParser] arg: work
+[2019-06-17 08:32:24Z INFO CommandLineParser] parsing argument
+[2019-06-17 08:32:24Z INFO CommandLineParser] HasArgs: True
+[2019-06-17 08:32:24Z INFO CommandLineParser] Adding option 'work': '_work'
+[2019-06-17 08:32:24Z INFO CommandLineParser] parsing argument
+[2019-06-17 08:32:24Z INFO CommandLineParser] HasArgs: True
+[2019-06-17 08:32:24Z INFO CommandLineParser] arg: projectname
+[2019-06-17 08:32:24Z INFO CommandLineParser] parsing argument
+[2019-06-17 08:32:24Z INFO CommandLineParser] HasArgs: True
+[2019-06-17 08:32:24Z INFO CommandLineParser] Adding option 'projectname': 'Demo'
+[2019-06-17 08:32:24Z INFO CommandLineParser] parsing argument
+[2019-06-17 08:32:24Z INFO CommandLineParser] HasArgs: True
+[2019-06-17 08:32:24Z INFO CommandLineParser] arg: runasservice
+[2019-06-17 08:32:24Z INFO AgentProcess] Arguments parsed
+[2019-06-17 08:32:24Z INFO HostContext] Well known directory 'Bin': '/home/ec2-user/azagent/bin'
+[2019-06-17 08:32:24Z INFO HostContext] Well known directory 'Root': '/home/ec2-user/azagent'
+[2019-06-17 08:32:24Z INFO HostContext] Well known config file 'Proxy': '/home/ec2-user/azagent/.proxy'
+[2019-06-17 08:32:24Z INFO VstsAgentWebProxy] No proxy setting found.
+[2019-06-17 08:32:24Z INFO HostContext] Well known directory 'Bin': '/home/ec2-user/azagent/bin'
+[2019-06-17 08:32:24Z INFO HostContext] Well known directory 'Root': '/home/ec2-user/azagent'
+[2019-06-17 08:32:24Z INFO HostContext] Well known config file 'Certificates': '/home/ec2-user/azagent/.certificates'
+[2019-06-17 08:32:24Z INFO AgentCertificateManager] No certificate setting found.
+[2019-06-17 08:32:24Z INFO Agent] ExecuteCommand
+[2019-06-17 08:32:24Z INFO ConfigurationStore] currentAssemblyLocation: /home/ec2-user/azagent/bin/Agent.Listener.dll
+[2019-06-17 08:32:24Z INFO HostContext] Well known directory 'Bin': '/home/ec2-user/azagent/bin'
+[2019-06-17 08:32:24Z INFO ConfigurationStore] binPath: /home/ec2-user/azagent/bin
+[2019-06-17 08:32:24Z INFO HostContext] Well known directory 'Bin': '/home/ec2-user/azagent/bin'
+[2019-06-17 08:32:24Z INFO HostContext] Well known directory 'Root': '/home/ec2-user/azagent'
+[2019-06-17 08:32:24Z INFO ConfigurationStore] RootFolder: /home/ec2-user/azagent
+[2019-06-17 08:32:24Z INFO HostContext] Well known directory 'Bin': '/home/ec2-user/azagent/bin'
+[2019-06-17 08:32:24Z INFO HostContext] Well known directory 'Root': '/home/ec2-user/azagent'
+[2019-06-17 08:32:24Z INFO HostContext] Well known config file 'Agent': '/home/ec2-user/azagent/.agent'
+[2019-06-17 08:32:24Z INFO ConfigurationStore] ConfigFilePath: /home/ec2-user/azagent/.agent
+[2019-06-17 08:32:24Z INFO HostContext] Well known directory 'Bin': '/home/ec2-user/azagent/bin'
+[2019-06-17 08:32:24Z INFO HostContext] Well known directory 'Root': '/home/ec2-user/azagent'
+[2019-06-17 08:32:24Z INFO HostContext] Well known config file 'Credentials': '/home/ec2-user/azagent/.credentials'
+[2019-06-17 08:32:24Z INFO ConfigurationStore] CredFilePath: /home/ec2-user/azagent/.credentials
+[2019-06-17 08:32:24Z INFO HostContext] Well known directory 'Bin': '/home/ec2-user/azagent/bin'
+[2019-06-17 08:32:24Z INFO HostContext] Well known directory 'Root': '/home/ec2-user/azagent'
+[2019-06-17 08:32:24Z INFO HostContext] Well known config file 'Service': '/home/ec2-user/azagent/.service'
+[2019-06-17 08:32:24Z INFO ConfigurationStore] ServiceConfigFilePath: /home/ec2-user/azagent/.service
+[2019-06-17 08:32:24Z INFO HostContext] Well known directory 'Bin': '/home/ec2-user/azagent/bin'
+[2019-06-17 08:32:24Z INFO HostContext] Well known directory 'Root': '/home/ec2-user/azagent'
+[2019-06-17 08:32:24Z INFO HostContext] Well known config file 'Autologon': '/home/ec2-user/azagent/.autologon'
+[2019-06-17 08:32:24Z INFO ConfigurationStore] AutoLogonSettingsFilePath: /home/ec2-user/azagent/.autologon
+[2019-06-17 08:32:24Z INFO HostContext] Well known directory 'Bin': '/home/ec2-user/azagent/bin'
+[2019-06-17 08:32:24Z INFO HostContext] Well known directory 'Root': '/home/ec2-user/azagent'
+[2019-06-17 08:32:24Z INFO HostContext] Well known config file 'Options': '/home/ec2-user/azagent/.options'
+[2019-06-17 08:32:24Z INFO ConfigurationStore] RuntimeOptionsFilePath: /home/ec2-user/azagent/.options
+[2019-06-17 08:32:24Z INFO CommandSettings] Flag 'help': 'False'
+[2019-06-17 08:32:24Z INFO CommandSettings] Flag 'version': 'False'
+[2019-06-17 08:32:24Z INFO CommandSettings] Flag 'commit': 'False'
+[2019-06-17 08:32:24Z INFO CommandSettings] Command 'configure': 'True'
+[2019-06-17 08:32:24Z INFO ConfigurationManager] ConfigureAsync
+[2019-06-17 08:32:24Z INFO ConfigurationStore] IsConfigured()
+[2019-06-17 08:32:24Z INFO ConfigurationStore] IsConfigured: False
+[2019-06-17 08:32:24Z INFO ConfigurationManager] Is configured: False
+[2019-06-17 08:32:24Z INFO CommandSettings] Flag 'sslskipcertvalidation': 'False'
+[2019-06-17 08:32:25Z INFO Terminal] WRITE LINE: 
+[2019-06-17 08:32:25Z INFO Terminal] WRITE LINE: >> End User License Agreements:
+[2019-06-17 08:32:25Z INFO Terminal] WRITE LINE: 
+[2019-06-17 08:32:25Z INFO HostContext] Well known directory 'Bin': '/home/ec2-user/azagent/bin'
+[2019-06-17 08:32:25Z INFO HostContext] Well known directory 'Root': '/home/ec2-user/azagent'
+[2019-06-17 08:32:25Z INFO HostContext] Well known directory 'Externals': '/home/ec2-user/azagent/externals'
+[2019-06-17 08:32:25Z INFO Terminal] WRITE LINE: Building sources from a TFVC repository requires accepting the Team Explorer Everywhere End User License Agreement. This step is not required for building sources from Git repositories.
+
+A copy of the Team Explorer Everywhere license agreement can be found at:
+  /home/ec2-user/azagent/externals/tee/license.html
+[2019-06-17 08:32:25Z INFO Terminal] WRITE LINE: 
+[2019-06-17 08:32:25Z INFO CommandSettings] Flag 'acceptteeeula': 'True'
+[2019-06-17 08:32:25Z INFO CommandSettings] Flag 'machinegroup': 'False'
+[2019-06-17 08:32:25Z INFO CommandSettings] Flag 'deploymentgroup': 'True'
+[2019-06-17 08:32:25Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Listener.Configuration.IConfigurationProvider'
+[2019-06-17 08:32:25Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.BuildReleasesAgentConfigProvider, Agent.Listener
+[2019-06-17 08:32:25Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.DeploymentGroupAgentConfigProvider, Agent.Listener
+[2019-06-17 08:32:25Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.SharedDeploymentAgentConfigProvider, Agent.Listener
+[2019-06-17 08:32:25Z INFO Terminal] WRITE LINE: 
+[2019-06-17 08:32:25Z INFO Terminal] WRITE LINE: >> Connect:
+[2019-06-17 08:32:25Z INFO Terminal] WRITE LINE: 
+[2019-06-17 08:32:25Z INFO CommandSettings] Arg 'url': 'https://dev.azure.com/punjabidrashti/'
+[2019-06-17 08:32:25Z INFO CommandSettings] Remove url from Arg dictionary.
+[2019-06-17 08:32:25Z INFO DeploymentGroupAgentConfigProvider] url - https://dev.azure.com/punjabidrashti/
+[2019-06-17 08:32:25Z INFO ConfigurationManager] GetCredentialProvider
+[2019-06-17 08:32:25Z INFO CommandSettings] Arg 'auth': ''
+[2019-06-17 08:32:25Z INFO CommandSettings] Flag 'unattended': 'False'
+[2019-06-17 08:32:25Z INFO PromptManager] ReadValue
+[2019-06-17 08:32:25Z INFO Terminal] WRITE: Enter authentication type (press enter for PAT) > 
+[2019-06-17 08:32:25Z INFO Terminal] READ LINE
+[2019-06-17 08:32:33Z INFO Terminal] Read value: ''
+[2019-06-17 08:32:33Z INFO PromptManager] Falling back to the default: 'PAT'
+[2019-06-17 08:32:33Z INFO ConfigurationManager] Creating credential for auth: PAT
+[2019-06-17 08:32:33Z INFO CredentialManager] GetCredentialProvider
+[2019-06-17 08:32:33Z INFO CredentialManager] Creating type PAT
+[2019-06-17 08:32:33Z INFO CredentialManager] Creating credential type: PAT
+[2019-06-17 08:32:33Z INFO PersonalAccessToken] EnsureCredential
+[2019-06-17 08:32:33Z INFO CommandSettings] Arg 'token': ''
+[2019-06-17 08:32:33Z INFO CommandSettings] Flag 'unattended': 'False'
+[2019-06-17 08:32:33Z INFO PromptManager] ReadValue
+[2019-06-17 08:32:33Z INFO Terminal] WRITE: Enter personal access token > 
+[2019-06-17 08:32:33Z INFO Terminal] READ SECRET

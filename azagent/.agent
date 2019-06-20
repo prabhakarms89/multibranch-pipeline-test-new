@@ -1,0 +1,11 @@
+﻿{
+  "acceptTeeEula": true,
+  "agentId": 8,
+  "agentName": "ip-172-31-21-77.us-east-2.compute.internal",
+  "poolId": 9,
+  "poolName": "Demo-Dev Server Group",
+  "serverUrl": "https://dev.azure.com/punjabidrashti/",
+  "workFolder": "_work",
+  "deploymentGroupId": 9,
+  "projectId": "ecd57254-8328-44a2-b771-8503bfe1b127"
+}

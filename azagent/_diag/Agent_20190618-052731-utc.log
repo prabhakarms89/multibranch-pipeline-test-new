@@ -240,3 +240,96 @@ Date: Tue, 18 Jun 2019 05:27:42 GMT
 [2019-06-18 05:27:46Z INFO MessageListener] Session created.
 [2019-06-18 05:27:46Z INFO Terminal] WRITE LINE: 2019-06-18 05:27:46Z: Listening for Jobs
 [2019-06-18 05:27:46Z INFO JobDispatcher] Set agent/worker IPC timeout to 30 seconds.
+[2019-06-18 05:57:55Z INFO MessageListener] No message retrieved from session 'b9346dbe-b614-4f5f-b04f-0279617f157c' within last 30 minutes.
+[2019-06-18 06:23:04Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Basic realm="https://tfsprodsin1.app.visualstudio.com/", Bearer, TFS-Federated
+X-TFS-ProcessId: 4a29355d-91a5-460e-9f00-8de230371db2
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: c452ad23-2b4c-46cb-b1ea-c772ec46a1c9
+X-TFS-Session: bf6adc8c-e28b-42c0-af15-e5371d0eaf53
+X-VSS-E2EID: e43584c8-3a8b-4a15-8191-e3a2b794b37a
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodsin1.app.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/punjabidrashti/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/punjabidrashti/
+X-VSS-ResourceTenant: 00000000-0000-0000-0000-000000000000
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodsin1.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fpunjabidrashti%2F_apis%2Fdistributedtask%2Fpools%2F9%2Fmessages%3FsessionId%3Db9346dbe-b614-4f5f-b04f-0279617f157c&redirect=1&aadinmsa=true&hid=be8f5d99-ace8-4bef-a366-b9d4c0fab00b&context=eyJodCI6MiwiaGlkIjoiMDI0MDNhOGUtODhkNy00YzlmLTk1ZWItYzcxMjdjZDBjZTllIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:a892bfef-0287-4640-9f5e-cffc90fbcf94
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-MSEdge-Ref: Ref A: 3865A3FEB8A64D58BDA138B94968819A Ref B: BL2EDGE1017 Ref C: 2019-06-18T06:23:03Z
+Date: Tue, 18 Jun 2019 06:23:03 GMT
+
+[2019-06-18 06:23:04Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ec2-user/azagent/.credentials_rsaparams
+[2019-06-18 06:23:06Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2019-06-18 06:23:06Z WARN VisualStudioServices] Retrieving an AAD auth token took a long time (2.5206505 seconds)
+[2019-06-18 06:28:08Z INFO MessageListener] No message retrieved from session 'b9346dbe-b614-4f5f-b04f-0279617f157c' within last 30 minutes.
+[2019-06-18 06:58:17Z INFO MessageListener] No message retrieved from session 'b9346dbe-b614-4f5f-b04f-0279617f157c' within last 30 minutes.
+[2019-06-18 07:18:24Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Basic realm="https://tfsprodsin1.app.visualstudio.com/", Bearer, TFS-Federated
+X-TFS-ProcessId: f213eeae-0c72-407d-8b2e-20a70d613331
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 1d31a60f-c700-448b-a57e-4009e96c804b
+X-TFS-Session: bf6adc8c-e28b-42c0-af15-e5371d0eaf53
+X-VSS-E2EID: 300060be-f208-47a6-9f67-6f066b943377
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodsin1.app.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/punjabidrashti/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/punjabidrashti/
+X-VSS-ResourceTenant: 00000000-0000-0000-0000-000000000000
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodsin1.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fpunjabidrashti%2F_apis%2Fdistributedtask%2Fpools%2F9%2Fmessages%3FsessionId%3Db9346dbe-b614-4f5f-b04f-0279617f157c&redirect=1&aadinmsa=true&hid=be8f5d99-ace8-4bef-a366-b9d4c0fab00b&context=eyJodCI6MiwiaGlkIjoiMDI0MDNhOGUtODhkNy00YzlmLTk1ZWItYzcxMjdjZDBjZTllIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:a892bfef-0287-4640-9f5e-cffc90fbcf94
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-MSEdge-Ref: Ref A: A6B2F7F492C5412599BC0966E086C4E7 Ref B: BL2EDGE1017 Ref C: 2019-06-18T07:18:24Z
+Date: Tue, 18 Jun 2019 07:18:23 GMT
+
+[2019-06-18 07:18:24Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ec2-user/azagent/.credentials_rsaparams
+[2019-06-18 07:18:27Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2019-06-18 07:18:27Z WARN VisualStudioServices] Retrieving an AAD auth token took a long time (2.5907802 seconds)
+[2019-06-18 07:28:30Z INFO MessageListener] No message retrieved from session 'b9346dbe-b614-4f5f-b04f-0279617f157c' within last 30 minutes.
+[2019-06-18 07:58:40Z INFO MessageListener] No message retrieved from session 'b9346dbe-b614-4f5f-b04f-0279617f157c' within last 30 minutes.
+[2019-06-18 08:13:45Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Basic realm="https://tfsprodsin1.app.visualstudio.com/", Bearer, TFS-Federated
+X-TFS-ProcessId: 4a29355d-91a5-460e-9f00-8de230371db2
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: c4414a4f-2b4c-46cb-b1ea-c772ec46a1c9
+X-TFS-Session: bf6adc8c-e28b-42c0-af15-e5371d0eaf53
+X-VSS-E2EID: f59de56b-17c5-4d3b-acf6-92215fb8ac3e
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodsin1.app.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/punjabidrashti/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/punjabidrashti/
+X-VSS-ResourceTenant: 00000000-0000-0000-0000-000000000000
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodsin1.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fpunjabidrashti%2F_apis%2Fdistributedtask%2Fpools%2F9%2Fmessages%3FsessionId%3Db9346dbe-b614-4f5f-b04f-0279617f157c&redirect=1&aadinmsa=true&hid=be8f5d99-ace8-4bef-a366-b9d4c0fab00b&context=eyJodCI6MiwiaGlkIjoiMDI0MDNhOGUtODhkNy00YzlmLTk1ZWItYzcxMjdjZDBjZTllIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:a892bfef-0287-4640-9f5e-cffc90fbcf94
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-MSEdge-Ref: Ref A: C869F5E591CA4495977CE9900EA46901 Ref B: BL2EDGE1017 Ref C: 2019-06-18T08:13:45Z
+Date: Tue, 18 Jun 2019 08:13:44 GMT
+
+[2019-06-18 08:13:45Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ec2-user/azagent/.credentials_rsaparams
+[2019-06-18 08:13:47Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2019-06-18 08:13:47Z WARN VisualStudioServices] Retrieving an AAD auth token took a long time (2.6371051 seconds)
+[2019-06-18 08:28:52Z INFO MessageListener] No message retrieved from session 'b9346dbe-b614-4f5f-b04f-0279617f157c' within last 30 minutes.
+[2019-06-18 08:34:45Z INFO Terminal] WRITE LINE: Exiting...
+[2019-06-18 08:34:45Z INFO ConfigurationStore] IsServiceConfigured()
+[2019-06-18 08:34:45Z INFO ConfigurationStore] IsServiceConfigured: True
+[2019-06-18 08:34:45Z INFO Agent] Received Ctrl-C signal, stop agent.listener and agent.worker.
+[2019-06-18 08:34:45Z INFO HostContext] Agent will be shutdown for UserCancelled
+[2019-06-18 08:34:45Z WARN VisualStudioServices] GET request to https://dev.azure.com/punjabidrashti/_apis/distributedtask/pools/9/messages?sessionId=b9346dbe-b614-4f5f-b04f-0279617f157c has been cancelled.
+[2019-06-18 08:34:45Z INFO MessageListener] Get next message has been cancelled.
+[2019-06-18 08:34:45Z INFO JobDispatcher] Shutting down JobDispatcher. Make sure all WorkerDispatcher has finished.
+[2019-06-18 08:34:46Z INFO AgentProcess] Agent execution been cancelled.

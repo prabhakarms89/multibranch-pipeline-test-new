@@ -1,0 +1,282 @@
+[2019-06-18 16:20:01Z INFO AgentProcess] Agent is built for Linux (X64) - linux-x64.
+[2019-06-18 16:20:01Z INFO AgentProcess] RuntimeInformation: Linux 4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019.
+[2019-06-18 16:20:01Z INFO AgentProcess] Version: 2.152.1
+[2019-06-18 16:20:01Z INFO AgentProcess] Commit: a402a5a177bcedea854590665d26c91ba03fa4d7
+[2019-06-18 16:20:01Z INFO AgentProcess] Culture: en-US
+[2019-06-18 16:20:01Z INFO AgentProcess] UI Culture: en-US
+[2019-06-18 16:20:01Z INFO HostContext] Well known directory 'Bin': '/home/ec2-user/azagent/bin'
+[2019-06-18 16:20:01Z INFO HostContext] Well known directory 'Root': '/home/ec2-user/azagent'
+[2019-06-18 16:20:01Z INFO AgentProcess] Validating directory permissions for: '/home/ec2-user/azagent'
+[2019-06-18 16:20:01Z INFO HostContext] Well known directory 'Bin': '/home/ec2-user/azagent/bin'
+[2019-06-18 16:20:01Z INFO HostContext] Well known directory 'Root': '/home/ec2-user/azagent'
+[2019-06-18 16:20:01Z INFO CommandLineParser] Parse
+[2019-06-18 16:20:01Z INFO CommandLineParser] Parsing 3 args
+[2019-06-18 16:20:01Z INFO CommandLineParser] parsing argument
+[2019-06-18 16:20:01Z INFO CommandLineParser] HasArgs: False
+[2019-06-18 16:20:01Z INFO CommandLineParser] Adding Command: run
+[2019-06-18 16:20:01Z INFO CommandLineParser] parsing argument
+[2019-06-18 16:20:01Z INFO CommandLineParser] HasArgs: True
+[2019-06-18 16:20:01Z INFO CommandLineParser] arg: startuptype
+[2019-06-18 16:20:01Z INFO CommandLineParser] parsing argument
+[2019-06-18 16:20:01Z INFO CommandLineParser] HasArgs: True
+[2019-06-18 16:20:01Z INFO CommandLineParser] Adding option 'startuptype': 'service'
+[2019-06-18 16:20:01Z INFO AgentProcess] Arguments parsed
+[2019-06-18 16:20:01Z INFO HostContext] Well known directory 'Bin': '/home/ec2-user/azagent/bin'
+[2019-06-18 16:20:01Z INFO HostContext] Well known directory 'Root': '/home/ec2-user/azagent'
+[2019-06-18 16:20:01Z INFO HostContext] Well known config file 'Proxy': '/home/ec2-user/azagent/.proxy'
+[2019-06-18 16:20:01Z INFO VstsAgentWebProxy] No proxy setting found.
+[2019-06-18 16:20:02Z INFO HostContext] Well known directory 'Bin': '/home/ec2-user/azagent/bin'
+[2019-06-18 16:20:02Z INFO HostContext] Well known directory 'Root': '/home/ec2-user/azagent'
+[2019-06-18 16:20:02Z INFO HostContext] Well known config file 'Certificates': '/home/ec2-user/azagent/.certificates'
+[2019-06-18 16:20:02Z INFO AgentCertificateManager] No certificate setting found.
+[2019-06-18 16:20:02Z INFO Agent] ExecuteCommand
+[2019-06-18 16:20:02Z INFO ConfigurationStore] currentAssemblyLocation: /home/ec2-user/azagent/bin/Agent.Listener.dll
+[2019-06-18 16:20:02Z INFO HostContext] Well known directory 'Bin': '/home/ec2-user/azagent/bin'
+[2019-06-18 16:20:02Z INFO ConfigurationStore] binPath: /home/ec2-user/azagent/bin
+[2019-06-18 16:20:02Z INFO HostContext] Well known directory 'Bin': '/home/ec2-user/azagent/bin'
+[2019-06-18 16:20:02Z INFO HostContext] Well known directory 'Root': '/home/ec2-user/azagent'
+[2019-06-18 16:20:02Z INFO ConfigurationStore] RootFolder: /home/ec2-user/azagent
+[2019-06-18 16:20:02Z INFO HostContext] Well known directory 'Bin': '/home/ec2-user/azagent/bin'
+[2019-06-18 16:20:02Z INFO HostContext] Well known directory 'Root': '/home/ec2-user/azagent'
+[2019-06-18 16:20:02Z INFO HostContext] Well known config file 'Agent': '/home/ec2-user/azagent/.agent'
+[2019-06-18 16:20:02Z INFO ConfigurationStore] ConfigFilePath: /home/ec2-user/azagent/.agent
+[2019-06-18 16:20:02Z INFO HostContext] Well known directory 'Bin': '/home/ec2-user/azagent/bin'
+[2019-06-18 16:20:02Z INFO HostContext] Well known directory 'Root': '/home/ec2-user/azagent'
+[2019-06-18 16:20:02Z INFO HostContext] Well known config file 'Credentials': '/home/ec2-user/azagent/.credentials'
+[2019-06-18 16:20:02Z INFO ConfigurationStore] CredFilePath: /home/ec2-user/azagent/.credentials
+[2019-06-18 16:20:02Z INFO HostContext] Well known directory 'Bin': '/home/ec2-user/azagent/bin'
+[2019-06-18 16:20:02Z INFO HostContext] Well known directory 'Root': '/home/ec2-user/azagent'
+[2019-06-18 16:20:02Z INFO HostContext] Well known config file 'Service': '/home/ec2-user/azagent/.service'
+[2019-06-18 16:20:02Z INFO ConfigurationStore] ServiceConfigFilePath: /home/ec2-user/azagent/.service
+[2019-06-18 16:20:02Z INFO HostContext] Well known directory 'Bin': '/home/ec2-user/azagent/bin'
+[2019-06-18 16:20:02Z INFO HostContext] Well known directory 'Root': '/home/ec2-user/azagent'
+[2019-06-18 16:20:02Z INFO HostContext] Well known config file 'Autologon': '/home/ec2-user/azagent/.autologon'
+[2019-06-18 16:20:02Z INFO ConfigurationStore] AutoLogonSettingsFilePath: /home/ec2-user/azagent/.autologon
+[2019-06-18 16:20:02Z INFO HostContext] Well known directory 'Bin': '/home/ec2-user/azagent/bin'
+[2019-06-18 16:20:02Z INFO HostContext] Well known directory 'Root': '/home/ec2-user/azagent'
+[2019-06-18 16:20:02Z INFO HostContext] Well known config file 'Options': '/home/ec2-user/azagent/.options'
+[2019-06-18 16:20:02Z INFO ConfigurationStore] RuntimeOptionsFilePath: /home/ec2-user/azagent/.options
+[2019-06-18 16:20:02Z INFO CommandSettings] Flag 'help': 'False'
+[2019-06-18 16:20:02Z INFO CommandSettings] Flag 'version': 'False'
+[2019-06-18 16:20:02Z INFO CommandSettings] Flag 'commit': 'False'
+[2019-06-18 16:20:02Z INFO CommandSettings] Command 'configure': 'False'
+[2019-06-18 16:20:02Z INFO CommandSettings] Command 'remove': 'False'
+[2019-06-18 16:20:02Z INFO CommandSettings] Command 'warmup': 'False'
+[2019-06-18 16:20:02Z INFO ConfigurationManager] LoadSettings
+[2019-06-18 16:20:02Z INFO ConfigurationStore] IsConfigured()
+[2019-06-18 16:20:02Z INFO ConfigurationStore] IsConfigured: True
+[2019-06-18 16:20:02Z INFO ConfigurationManager] Is configured: True
+[2019-06-18 16:20:02Z INFO ConfigurationStore] Read setting file: 320 chars
+[2019-06-18 16:20:03Z INFO ConfigurationManager] Settings Loaded
+[2019-06-18 16:20:03Z INFO ConfigurationStore] IsServiceConfigured()
+[2019-06-18 16:20:03Z INFO ConfigurationStore] IsServiceConfigured: True
+[2019-06-18 16:20:03Z INFO ConfigurationStore] IsConfigured()
+[2019-06-18 16:20:03Z INFO ConfigurationStore] IsConfigured: True
+[2019-06-18 16:20:03Z INFO ConfigurationManager] Is configured: True
+[2019-06-18 16:20:03Z INFO Agent] Set agent startup type - Service
+[2019-06-18 16:20:03Z INFO CommandSettings] Flag 'once': 'False'
+[2019-06-18 16:20:03Z INFO Agent] RunAsync
+[2019-06-18 16:20:03Z INFO ConfigurationManager] LoadSettings
+[2019-06-18 16:20:03Z INFO ConfigurationStore] IsConfigured()
+[2019-06-18 16:20:03Z INFO ConfigurationStore] IsConfigured: True
+[2019-06-18 16:20:03Z INFO ConfigurationManager] Is configured: True
+[2019-06-18 16:20:03Z INFO ConfigurationManager] Settings Loaded
+[2019-06-18 16:20:03Z INFO MessageListener] {
+  "AcceptTeeEula": true,
+  "AgentId": 8,
+  "AgentName": "ip-172-31-21-77.us-east-2.compute.internal",
+  "PoolId": 9,
+  "PoolName": "Demo-Dev Server Group",
+  "ServerUrl": "https://dev.azure.com/punjabidrashti/",
+  "WorkFolder": "_work",
+  "DeploymentGroupId": 9,
+  "ProjectId": "ecd57254-8328-44a2-b771-8503bfe1b127"
+}
+[2019-06-18 16:20:04Z INFO Terminal] WRITE LINE: Scanning for tool capabilities.
+[2019-06-18 16:20:04Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Capabilities.ICapabilitiesProvider'
+[2019-06-18 16:20:04Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.AgentCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2019-06-18 16:20:04Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.EnvironmentCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2019-06-18 16:20:04Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.NixCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2019-06-18 16:20:04Z INFO EnvironmentCapabilitiesProvider] Adding '_': './externals/node/bin/node'
+[2019-06-18 16:20:04Z INFO EnvironmentCapabilitiesProvider] Adding 'HOME': '/home/ec2-user'
+[2019-06-18 16:20:04Z INFO EnvironmentCapabilitiesProvider] Adding 'LANG': 'en_US.UTF-8'
+[2019-06-18 16:20:04Z INFO EnvironmentCapabilitiesProvider] Adding 'LOGNAME': 'ec2-user'
+[2019-06-18 16:20:04Z INFO EnvironmentCapabilitiesProvider] Adding 'PATH': '/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/ec2-user/.local/bin:/home/ec2-user/bin'
+[2019-06-18 16:20:04Z INFO EnvironmentCapabilitiesProvider] Adding 'PWD': '/home/ec2-user/azagent'
+[2019-06-18 16:20:04Z INFO EnvironmentCapabilitiesProvider] Adding 'SHELL': '/bin/bash'
+[2019-06-18 16:20:04Z INFO EnvironmentCapabilitiesProvider] Skipping: 'SHLVL'
+[2019-06-18 16:20:04Z INFO EnvironmentCapabilitiesProvider] Adding 'USER': 'ec2-user'
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Which: 'android'
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Not found.
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Checking file: 'tools/android'
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Checking file: '/home/ec2-user/Library/Developer/Xamarin/android-sdk-macosx/tools/android'
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Which: 'ant'
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Not found.
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Which: 'waagent'
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Not found.
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Which: 'bundle'
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Not found.
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Which: 'clang'
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Not found.
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Which: 'cmake'
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Not found.
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Which: 'curl'
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Adding 'curl': '/usr/bin/curl'
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Which: 'docker'
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Adding 'docker': '/usr/bin/docker'
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Which: 'git'
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Adding 'git': '/usr/bin/git'
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Which: 'gulp'
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Not found.
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Which: 'java'
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Adding 'java': '/usr/bin/java'
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Which: 'javac'
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Adding 'JDK': '/usr/bin/javac'
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Which: 'make'
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Adding 'make': '/usr/bin/make'
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Which: 'mvn'
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Not found.
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Which: 'xbuild'
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Not found.
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Mono.framework/Commands/xbuild'
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Which: 'msbuild'
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Not found.
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Mono.framework/Commands/msbuild'
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Which: 'node'
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Not found.
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Which: 'nodejs'
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Not found.
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Which: 'npm'
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Not found.
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Which: 'python'
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Adding 'python': '/usr/bin/python'
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Which: 'python3'
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Not found.
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Which: 'sh'
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Adding 'sh': '/usr/bin/sh'
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Which: 'svn'
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Not found.
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Which: 'ruby'
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Not found.
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Which: 'rake'
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Not found.
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Which: 'svn'
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Not found.
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Which: 'mdtool'
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Not found.
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Checking file: '/Applications/Xamarin Studio.app/Contents/MacOS/mdtool'
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Checking file: '/Applications/Visual Studio.app/Contents/MacOS/vstool'
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Which: 'generator'
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Not found.
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Xamarin.Android.framework/Commands/generator'
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Xamarin.Android.framework/Versions/Current/Version'
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Which: 'xcode-select'
+[2019-06-18 16:20:04Z INFO CapabilitiesBuilder] Not found.
+[2019-06-18 16:20:04Z INFO AgentCapabilitiesProvider] Adding 'Agent.Name': 'ip-172-31-21-77.us-east-2.compute.internal'
+[2019-06-18 16:20:04Z INFO AgentCapabilitiesProvider] Adding 'Agent.OS': 'Linux'
+[2019-06-18 16:20:04Z INFO AgentCapabilitiesProvider] Adding 'Agent.OSArchitecture': 'X64'
+[2019-06-18 16:20:04Z INFO AgentCapabilitiesProvider] Adding 'InteractiveSession': 'False'
+[2019-06-18 16:20:04Z INFO AgentCapabilitiesProvider] Adding 'Agent.Version': '2.152.1'
+[2019-06-18 16:20:04Z INFO AgentCapabilitiesProvider] Adding 'Agent.ComputerName': 'ip-172-31-21-77'
+[2019-06-18 16:20:04Z INFO HostContext] Well known directory 'Bin': '/home/ec2-user/azagent/bin'
+[2019-06-18 16:20:04Z INFO HostContext] Well known directory 'Root': '/home/ec2-user/azagent'
+[2019-06-18 16:20:04Z INFO AgentCapabilitiesProvider] Adding 'Agent.HomeDirectory': '/home/ec2-user/azagent'
+[2019-06-18 16:20:04Z INFO MessageListener] Loading Credentials
+[2019-06-18 16:20:04Z INFO ConfigurationStore] HasCredentials()
+[2019-06-18 16:20:04Z INFO ConfigurationStore] stored True
+[2019-06-18 16:20:04Z INFO CredentialManager] GetCredentialProvider
+[2019-06-18 16:20:04Z INFO CredentialManager] Creating type OAuth
+[2019-06-18 16:20:04Z INFO CredentialManager] Creating credential type: OAuth
+[2019-06-18 16:20:04Z INFO HostContext] Well known directory 'Bin': '/home/ec2-user/azagent/bin'
+[2019-06-18 16:20:04Z INFO HostContext] Well known directory 'Root': '/home/ec2-user/azagent'
+[2019-06-18 16:20:04Z INFO HostContext] Well known config file 'RSACredentials': '/home/ec2-user/azagent/.credentials_rsaparams'
+[2019-06-18 16:20:04Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ec2-user/azagent/.credentials_rsaparams
+[2019-06-18 16:20:04Z INFO Terminal] WRITE LINE: Connecting to the server.
+[2019-06-18 16:20:04Z INFO MessageListener] Attempt to create session.
+[2019-06-18 16:20:04Z INFO MessageListener] Connecting to the Agent Server...
+[2019-06-18 16:20:04Z INFO AgentServer] Establish connection with 100 seconds timeout.
+[2019-06-18 16:20:05Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2019-06-18 16:20:08Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2019-06-18 16:20:10Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2019-06-18 16:20:10Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2019-06-18 16:20:10Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2019-06-18 16:20:11Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2019-06-18 16:20:11Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2019-06-18 16:20:12Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2019-06-18 16:20:13Z INFO MessageListener] VssConnection created
+[2019-06-18 16:20:13Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Basic realm="https://tfsprodsin1.app.visualstudio.com/", Bearer, TFS-Federated
+X-TFS-ProcessId: 5573a6f0-15aa-4044-90cf-31a04aefbc91
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 30f1227b-5f2b-4f1d-9e56-7b803a0c7142
+X-TFS-Session: 5d676ab4-03c8-41e1-8bd6-ff3261d0e9d6
+X-VSS-E2EID: 3a2d0721-19fa-4e73-8330-deb3a625a647
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodsin1.app.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/punjabidrashti/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/punjabidrashti/
+X-VSS-ResourceTenant: 00000000-0000-0000-0000-000000000000
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodsin1.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fpunjabidrashti%2F_apis%2Fdistributedtask%2Fpools%2F9%2Fsessions&redirect=1&aadinmsa=true&hid=be8f5d99-ace8-4bef-a366-b9d4c0fab00b&context=eyJodCI6MiwiaGlkIjoiMDI0MDNhOGUtODhkNy00YzlmLTk1ZWItYzcxMjdjZDBjZTllIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:a892bfef-0287-4640-9f5e-cffc90fbcf94
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-MSEdge-Ref: Ref A: 653EDDDBB1734A5CAB8D78E82BD5B311 Ref B: BL2EDGE1013 Ref C: 2019-06-18T16:20:13Z
+Date: Tue, 18 Jun 2019 16:20:13 GMT
+
+[2019-06-18 16:20:13Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ec2-user/azagent/.credentials_rsaparams
+[2019-06-18 16:20:14Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ec2-user/azagent/.credentials_rsaparams
+[2019-06-18 16:20:16Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2019-06-18 16:20:16Z WARN VisualStudioServices] Retrieving an AAD auth token took a long time (2.2256351 seconds)
+[2019-06-18 16:20:16Z INFO MessageListener] Session created.
+[2019-06-18 16:20:16Z INFO Terminal] WRITE LINE: 2019-06-18 16:20:16Z: Listening for Jobs
+[2019-06-18 16:20:16Z INFO JobDispatcher] Set agent/worker IPC timeout to 30 seconds.
+[2019-06-18 16:50:26Z INFO MessageListener] No message retrieved from session 'aac0092c-888d-4ae7-af27-e0a35d9e4866' within last 30 minutes.
+[2019-06-18 17:15:34Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Basic realm="https://tfsprodsin1.app.visualstudio.com/", Bearer, TFS-Federated
+X-TFS-ProcessId: 5573a6f0-15aa-4044-90cf-31a04aefbc91
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 30f325bf-5f2b-4f1d-9e56-7b803a0c7142
+X-TFS-Session: 5d676ab4-03c8-41e1-8bd6-ff3261d0e9d6
+X-VSS-E2EID: a000540a-2be1-4f0d-8d6b-69cce2f4c613
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodsin1.app.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/punjabidrashti/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/punjabidrashti/
+X-VSS-ResourceTenant: 00000000-0000-0000-0000-000000000000
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodsin1.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fpunjabidrashti%2F_apis%2Fdistributedtask%2Fpools%2F9%2Fmessages%3FsessionId%3Daac0092c-888d-4ae7-af27-e0a35d9e4866&redirect=1&aadinmsa=true&hid=be8f5d99-ace8-4bef-a366-b9d4c0fab00b&context=eyJodCI6MiwiaGlkIjoiMDI0MDNhOGUtODhkNy00YzlmLTk1ZWItYzcxMjdjZDBjZTllIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:a892bfef-0287-4640-9f5e-cffc90fbcf94
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-MSEdge-Ref: Ref A: AA520BDDE7F84415A7C28FE17E74A679 Ref B: BL2EDGE1013 Ref C: 2019-06-18T17:15:34Z
+Date: Tue, 18 Jun 2019 17:15:34 GMT
+
+[2019-06-18 17:15:34Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ec2-user/azagent/.credentials_rsaparams
+[2019-06-18 17:15:37Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2019-06-18 17:15:37Z WARN VisualStudioServices] Retrieving an AAD auth token took a long time (2.5501702 seconds)
+[2019-06-18 17:20:39Z INFO MessageListener] No message retrieved from session 'aac0092c-888d-4ae7-af27-e0a35d9e4866' within last 30 minutes.
+[2019-06-18 17:50:48Z INFO MessageListener] No message retrieved from session 'aac0092c-888d-4ae7-af27-e0a35d9e4866' within last 30 minutes.
+[2019-06-18 17:51:32Z INFO Terminal] WRITE LINE: Exiting...
+[2019-06-18 17:51:32Z INFO ConfigurationStore] IsServiceConfigured()
+[2019-06-18 17:51:32Z INFO ConfigurationStore] IsServiceConfigured: True
+[2019-06-18 17:51:32Z INFO Agent] Received Ctrl-C signal, stop agent.listener and agent.worker.
+[2019-06-18 17:51:32Z INFO HostContext] Agent will be shutdown for UserCancelled
+[2019-06-18 17:51:32Z WARN VisualStudioServices] GET request to https://dev.azure.com/punjabidrashti/_apis/distributedtask/pools/9/messages?sessionId=aac0092c-888d-4ae7-af27-e0a35d9e4866 has been cancelled.
+[2019-06-18 17:51:32Z INFO MessageListener] Get next message has been cancelled.
+[2019-06-18 17:51:32Z INFO JobDispatcher] Shutting down JobDispatcher. Make sure all WorkerDispatcher has finished.
+[2019-06-18 17:51:34Z INFO AgentProcess] Agent execution been cancelled.

@@ -9,6 +9,8 @@
 ~H
 # Command Line History (newest to oldest):
 :wq
+:w
+:q
 
 # Search String History (newest to oldest):
 
@@ -19,15 +21,150 @@
 # Input Line History (newest to oldest):
 
 # Registers:
+""-	CHAR	0
+	i
 
 # File marks:
-'0  16  0  ~/Jenkinsfile
+'0  7  1  ~/.bashrc
+'1  8  0  ~/.bashrc
+'2  3  59  ~/.bashrc
+'3  3  127  ~/.bashrc
+'4  1  8  ~/.bashrc
+'5  1  0  ~/branch
+'6  16  0  ~/Jenkinsfile
 
 # Jumplist (newest first):
+-'  7  1  ~/.bashrc
+-'  8  0  ~/.bashrc
+-'  3  59  ~/.bashrc
+-'  1  0  ~/.bashrc
+-'  1  0  ~/branch
+-'  16  0  ~/Jenkinsfile
+-'  1  0  ~/Jenkinsfile
+-'  16  0  ~/Jenkinsfile
+-'  1  0  ~/Jenkinsfile
+-'  1  0  ~/branch
+-'  16  0  ~/Jenkinsfile
+-'  1  0  ~/Jenkinsfile
+-'  16  0  ~/Jenkinsfile
+-'  1  0  ~/Jenkinsfile
+-'  1  0  ~/branch
+-'  16  0  ~/Jenkinsfile
+-'  1  0  ~/Jenkinsfile
+-'  16  0  ~/Jenkinsfile
+-'  1  0  ~/Jenkinsfile
+-'  1  0  ~/branch
+-'  16  0  ~/Jenkinsfile
+-'  1  0  ~/Jenkinsfile
+-'  16  0  ~/Jenkinsfile
+-'  1  0  ~/Jenkinsfile
+-'  1  0  ~/branch
+-'  16  0  ~/Jenkinsfile
+-'  1  0  ~/Jenkinsfile
+-'  16  0  ~/Jenkinsfile
+-'  1  0  ~/Jenkinsfile
+-'  1  0  ~/branch
+-'  16  0  ~/Jenkinsfile
+-'  1  0  ~/Jenkinsfile
+-'  16  0  ~/Jenkinsfile
+-'  1  0  ~/Jenkinsfile
+-'  1  0  ~/branch
+-'  16  0  ~/Jenkinsfile
+-'  1  0  ~/Jenkinsfile
+-'  16  0  ~/Jenkinsfile
+-'  1  0  ~/Jenkinsfile
+-'  1  0  ~/branch
+-'  16  0  ~/Jenkinsfile
+-'  1  0  ~/Jenkinsfile
+-'  16  0  ~/Jenkinsfile
+-'  1  0  ~/Jenkinsfile
+-'  9  54  ~/.bashrc
+-'  1  0  ~/branch
+-'  16  0  ~/Jenkinsfile
+-'  1  0  ~/Jenkinsfile
+-'  16  0  ~/Jenkinsfile
+-'  1  0  ~/Jenkinsfile
+-'  1  0  ~/branch
+-'  16  0  ~/Jenkinsfile
+-'  1  0  ~/Jenkinsfile
+-'  16  0  ~/Jenkinsfile
+-'  1  0  ~/Jenkinsfile
+-'  1  0  ~/branch
+-'  16  0  ~/Jenkinsfile
+-'  1  0  ~/Jenkinsfile
+-'  16  0  ~/Jenkinsfile
+-'  1  0  ~/Jenkinsfile
+-'  1  0  ~/branch
+-'  16  0  ~/Jenkinsfile
+-'  1  0  ~/Jenkinsfile
+-'  16  0  ~/Jenkinsfile
+-'  1  0  ~/Jenkinsfile
+-'  1  0  ~/branch
+-'  16  0  ~/Jenkinsfile
+-'  1  0  ~/Jenkinsfile
+-'  16  0  ~/Jenkinsfile
+-'  1  0  ~/Jenkinsfile
+-'  1  0  ~/branch
+-'  16  0  ~/Jenkinsfile
+-'  1  0  ~/Jenkinsfile
+-'  16  0  ~/Jenkinsfile
+-'  1  0  ~/Jenkinsfile
+-'  1  0  ~/branch
+-'  16  0  ~/Jenkinsfile
+-'  1  0  ~/Jenkinsfile
+-'  16  0  ~/Jenkinsfile
+-'  1  0  ~/Jenkinsfile
+-'  1  0  ~/branch
+-'  16  0  ~/Jenkinsfile
+-'  1  0  ~/Jenkinsfile
+-'  16  0  ~/Jenkinsfile
+-'  1  0  ~/Jenkinsfile
+-'  6  0  ~/.bashrc
+-'  5  19  ~/.bashrc
+-'  1  0  ~/branch
+-'  16  0  ~/Jenkinsfile
+-'  1  0  ~/Jenkinsfile
+-'  16  0  ~/Jenkinsfile
+-'  1  0  ~/Jenkinsfile
+-'  1  0  ~/branch
+-'  16  0  ~/Jenkinsfile
+-'  1  0  ~/Jenkinsfile
 -'  16  0  ~/Jenkinsfile
 -'  1  0  ~/Jenkinsfile
 
 # History of marks within files (newest to oldest):
+
+> ~/.bashrc
+	"	7	1
+	^	7	2
+	.	7	1
+	+	1	0
+	+	3	84
+	+	1	0
+	+	3	128
+	+	3	72
+	+	3	71
+	+	3	70
+	+	3	69
+	+	3	68
+	+	3	67
+	+	3	66
+	+	3	65
+	+	3	64
+	+	3	63
+	+	3	62
+	+	3	61
+	+	3	60
+	+	3	59
+	+	3	58
+	+	3	59
+	+	7	1
+
+> ~/branch
+	"	1	0
+	^	1	1
+	.	1	0
+	+	1	0
 
 > ~/Jenkinsfile
 	"	16	0

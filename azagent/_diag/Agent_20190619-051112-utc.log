@@ -1,0 +1,578 @@
+[2019-06-19 05:11:12Z INFO AgentProcess] Agent is built for Linux (X64) - linux-x64.
+[2019-06-19 05:11:12Z INFO AgentProcess] RuntimeInformation: Linux 4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019.
+[2019-06-19 05:11:12Z INFO AgentProcess] Version: 2.152.1
+[2019-06-19 05:11:12Z INFO AgentProcess] Commit: a402a5a177bcedea854590665d26c91ba03fa4d7
+[2019-06-19 05:11:12Z INFO AgentProcess] Culture: en-US
+[2019-06-19 05:11:12Z INFO AgentProcess] UI Culture: en-US
+[2019-06-19 05:11:12Z INFO HostContext] Well known directory 'Bin': '/home/ec2-user/azagent/bin'
+[2019-06-19 05:11:12Z INFO HostContext] Well known directory 'Root': '/home/ec2-user/azagent'
+[2019-06-19 05:11:12Z INFO AgentProcess] Validating directory permissions for: '/home/ec2-user/azagent'
+[2019-06-19 05:11:12Z INFO HostContext] Well known directory 'Bin': '/home/ec2-user/azagent/bin'
+[2019-06-19 05:11:12Z INFO HostContext] Well known directory 'Root': '/home/ec2-user/azagent'
+[2019-06-19 05:11:12Z INFO CommandLineParser] Parse
+[2019-06-19 05:11:12Z INFO CommandLineParser] Parsing 3 args
+[2019-06-19 05:11:12Z INFO CommandLineParser] parsing argument
+[2019-06-19 05:11:12Z INFO CommandLineParser] HasArgs: False
+[2019-06-19 05:11:12Z INFO CommandLineParser] Adding Command: run
+[2019-06-19 05:11:12Z INFO CommandLineParser] parsing argument
+[2019-06-19 05:11:12Z INFO CommandLineParser] HasArgs: True
+[2019-06-19 05:11:12Z INFO CommandLineParser] arg: startuptype
+[2019-06-19 05:11:12Z INFO CommandLineParser] parsing argument
+[2019-06-19 05:11:12Z INFO CommandLineParser] HasArgs: True
+[2019-06-19 05:11:12Z INFO CommandLineParser] Adding option 'startuptype': 'service'
+[2019-06-19 05:11:12Z INFO AgentProcess] Arguments parsed
+[2019-06-19 05:11:12Z INFO HostContext] Well known directory 'Bin': '/home/ec2-user/azagent/bin'
+[2019-06-19 05:11:12Z INFO HostContext] Well known directory 'Root': '/home/ec2-user/azagent'
+[2019-06-19 05:11:12Z INFO HostContext] Well known config file 'Proxy': '/home/ec2-user/azagent/.proxy'
+[2019-06-19 05:11:12Z INFO VstsAgentWebProxy] No proxy setting found.
+[2019-06-19 05:11:12Z INFO HostContext] Well known directory 'Bin': '/home/ec2-user/azagent/bin'
+[2019-06-19 05:11:12Z INFO HostContext] Well known directory 'Root': '/home/ec2-user/azagent'
+[2019-06-19 05:11:12Z INFO HostContext] Well known config file 'Certificates': '/home/ec2-user/azagent/.certificates'
+[2019-06-19 05:11:12Z INFO AgentCertificateManager] No certificate setting found.
+[2019-06-19 05:11:12Z INFO Agent] ExecuteCommand
+[2019-06-19 05:11:12Z INFO ConfigurationStore] currentAssemblyLocation: /home/ec2-user/azagent/bin/Agent.Listener.dll
+[2019-06-19 05:11:12Z INFO HostContext] Well known directory 'Bin': '/home/ec2-user/azagent/bin'
+[2019-06-19 05:11:12Z INFO ConfigurationStore] binPath: /home/ec2-user/azagent/bin
+[2019-06-19 05:11:12Z INFO HostContext] Well known directory 'Bin': '/home/ec2-user/azagent/bin'
+[2019-06-19 05:11:12Z INFO HostContext] Well known directory 'Root': '/home/ec2-user/azagent'
+[2019-06-19 05:11:12Z INFO ConfigurationStore] RootFolder: /home/ec2-user/azagent
+[2019-06-19 05:11:12Z INFO HostContext] Well known directory 'Bin': '/home/ec2-user/azagent/bin'
+[2019-06-19 05:11:12Z INFO HostContext] Well known directory 'Root': '/home/ec2-user/azagent'
+[2019-06-19 05:11:12Z INFO HostContext] Well known config file 'Agent': '/home/ec2-user/azagent/.agent'
+[2019-06-19 05:11:12Z INFO ConfigurationStore] ConfigFilePath: /home/ec2-user/azagent/.agent
+[2019-06-19 05:11:12Z INFO HostContext] Well known directory 'Bin': '/home/ec2-user/azagent/bin'
+[2019-06-19 05:11:12Z INFO HostContext] Well known directory 'Root': '/home/ec2-user/azagent'
+[2019-06-19 05:11:12Z INFO HostContext] Well known config file 'Credentials': '/home/ec2-user/azagent/.credentials'
+[2019-06-19 05:11:12Z INFO ConfigurationStore] CredFilePath: /home/ec2-user/azagent/.credentials
+[2019-06-19 05:11:12Z INFO HostContext] Well known directory 'Bin': '/home/ec2-user/azagent/bin'
+[2019-06-19 05:11:12Z INFO HostContext] Well known directory 'Root': '/home/ec2-user/azagent'
+[2019-06-19 05:11:12Z INFO HostContext] Well known config file 'Service': '/home/ec2-user/azagent/.service'
+[2019-06-19 05:11:12Z INFO ConfigurationStore] ServiceConfigFilePath: /home/ec2-user/azagent/.service
+[2019-06-19 05:11:12Z INFO HostContext] Well known directory 'Bin': '/home/ec2-user/azagent/bin'
+[2019-06-19 05:11:12Z INFO HostContext] Well known directory 'Root': '/home/ec2-user/azagent'
+[2019-06-19 05:11:12Z INFO HostContext] Well known config file 'Autologon': '/home/ec2-user/azagent/.autologon'
+[2019-06-19 05:11:12Z INFO ConfigurationStore] AutoLogonSettingsFilePath: /home/ec2-user/azagent/.autologon
+[2019-06-19 05:11:12Z INFO HostContext] Well known directory 'Bin': '/home/ec2-user/azagent/bin'
+[2019-06-19 05:11:12Z INFO HostContext] Well known directory 'Root': '/home/ec2-user/azagent'
+[2019-06-19 05:11:12Z INFO HostContext] Well known config file 'Options': '/home/ec2-user/azagent/.options'
+[2019-06-19 05:11:12Z INFO ConfigurationStore] RuntimeOptionsFilePath: /home/ec2-user/azagent/.options
+[2019-06-19 05:11:12Z INFO CommandSettings] Flag 'help': 'False'
+[2019-06-19 05:11:12Z INFO CommandSettings] Flag 'version': 'False'
+[2019-06-19 05:11:12Z INFO CommandSettings] Flag 'commit': 'False'
+[2019-06-19 05:11:12Z INFO CommandSettings] Command 'configure': 'False'
+[2019-06-19 05:11:12Z INFO CommandSettings] Command 'remove': 'False'
+[2019-06-19 05:11:12Z INFO CommandSettings] Command 'warmup': 'False'
+[2019-06-19 05:11:12Z INFO ConfigurationManager] LoadSettings
+[2019-06-19 05:11:12Z INFO ConfigurationStore] IsConfigured()
+[2019-06-19 05:11:12Z INFO ConfigurationStore] IsConfigured: True
+[2019-06-19 05:11:12Z INFO ConfigurationManager] Is configured: True
+[2019-06-19 05:11:12Z INFO ConfigurationStore] Read setting file: 320 chars
+[2019-06-19 05:11:13Z INFO ConfigurationManager] Settings Loaded
+[2019-06-19 05:11:13Z INFO ConfigurationStore] IsServiceConfigured()
+[2019-06-19 05:11:13Z INFO ConfigurationStore] IsServiceConfigured: True
+[2019-06-19 05:11:13Z INFO ConfigurationStore] IsConfigured()
+[2019-06-19 05:11:13Z INFO ConfigurationStore] IsConfigured: True
+[2019-06-19 05:11:13Z INFO ConfigurationManager] Is configured: True
+[2019-06-19 05:11:13Z INFO Agent] Set agent startup type - Service
+[2019-06-19 05:11:13Z INFO CommandSettings] Flag 'once': 'False'
+[2019-06-19 05:11:13Z INFO Agent] RunAsync
+[2019-06-19 05:11:13Z INFO ConfigurationManager] LoadSettings
+[2019-06-19 05:11:13Z INFO ConfigurationStore] IsConfigured()
+[2019-06-19 05:11:13Z INFO ConfigurationStore] IsConfigured: True
+[2019-06-19 05:11:13Z INFO ConfigurationManager] Is configured: True
+[2019-06-19 05:11:13Z INFO ConfigurationManager] Settings Loaded
+[2019-06-19 05:11:14Z INFO MessageListener] {
+  "AcceptTeeEula": true,
+  "AgentId": 8,
+  "AgentName": "ip-172-31-21-77.us-east-2.compute.internal",
+  "PoolId": 9,
+  "PoolName": "Demo-Dev Server Group",
+  "ServerUrl": "https://dev.azure.com/punjabidrashti/",
+  "WorkFolder": "_work",
+  "DeploymentGroupId": 9,
+  "ProjectId": "ecd57254-8328-44a2-b771-8503bfe1b127"
+}
+[2019-06-19 05:11:14Z INFO Terminal] WRITE LINE: Scanning for tool capabilities.
+[2019-06-19 05:11:14Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Capabilities.ICapabilitiesProvider'
+[2019-06-19 05:11:14Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.AgentCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2019-06-19 05:11:14Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.EnvironmentCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2019-06-19 05:11:14Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.NixCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2019-06-19 05:11:14Z INFO EnvironmentCapabilitiesProvider] Adding '_': './externals/node/bin/node'
+[2019-06-19 05:11:14Z INFO EnvironmentCapabilitiesProvider] Adding 'HOME': '/home/ec2-user'
+[2019-06-19 05:11:14Z INFO EnvironmentCapabilitiesProvider] Adding 'LANG': 'en_US.UTF-8'
+[2019-06-19 05:11:14Z INFO EnvironmentCapabilitiesProvider] Adding 'LOGNAME': 'ec2-user'
+[2019-06-19 05:11:14Z INFO EnvironmentCapabilitiesProvider] Adding 'PATH': '/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/ec2-user/.local/bin:/home/ec2-user/bin'
+[2019-06-19 05:11:14Z INFO EnvironmentCapabilitiesProvider] Adding 'PWD': '/home/ec2-user/azagent'
+[2019-06-19 05:11:14Z INFO EnvironmentCapabilitiesProvider] Adding 'SHELL': '/bin/bash'
+[2019-06-19 05:11:14Z INFO EnvironmentCapabilitiesProvider] Skipping: 'SHLVL'
+[2019-06-19 05:11:14Z INFO EnvironmentCapabilitiesProvider] Adding 'USER': 'ec2-user'
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Which: 'android'
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Not found.
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Checking file: 'tools/android'
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Checking file: '/home/ec2-user/Library/Developer/Xamarin/android-sdk-macosx/tools/android'
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Which: 'ant'
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Not found.
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Which: 'waagent'
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Not found.
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Which: 'bundle'
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Not found.
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Which: 'clang'
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Not found.
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Which: 'cmake'
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Not found.
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Which: 'curl'
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Adding 'curl': '/usr/bin/curl'
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Which: 'docker'
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Adding 'docker': '/usr/bin/docker'
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Which: 'git'
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Adding 'git': '/usr/bin/git'
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Which: 'gulp'
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Not found.
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Which: 'java'
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Adding 'java': '/usr/bin/java'
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Which: 'javac'
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Adding 'JDK': '/usr/bin/javac'
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Which: 'make'
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Adding 'make': '/usr/bin/make'
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Which: 'mvn'
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Not found.
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Which: 'xbuild'
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Not found.
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Mono.framework/Commands/xbuild'
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Which: 'msbuild'
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Not found.
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Mono.framework/Commands/msbuild'
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Which: 'node'
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Not found.
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Which: 'nodejs'
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Not found.
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Which: 'npm'
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Not found.
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Which: 'python'
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Adding 'python': '/usr/bin/python'
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Which: 'python3'
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Not found.
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Which: 'sh'
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Adding 'sh': '/usr/bin/sh'
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Which: 'svn'
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Not found.
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Which: 'ruby'
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Not found.
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Which: 'rake'
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Not found.
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Which: 'svn'
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Not found.
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Which: 'mdtool'
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Not found.
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Checking file: '/Applications/Xamarin Studio.app/Contents/MacOS/mdtool'
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Checking file: '/Applications/Visual Studio.app/Contents/MacOS/vstool'
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Which: 'generator'
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Not found.
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Xamarin.Android.framework/Commands/generator'
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Xamarin.Android.framework/Versions/Current/Version'
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Which: 'xcode-select'
+[2019-06-19 05:11:14Z INFO CapabilitiesBuilder] Not found.
+[2019-06-19 05:11:14Z INFO AgentCapabilitiesProvider] Adding 'Agent.Name': 'ip-172-31-21-77.us-east-2.compute.internal'
+[2019-06-19 05:11:14Z INFO AgentCapabilitiesProvider] Adding 'Agent.OS': 'Linux'
+[2019-06-19 05:11:14Z INFO AgentCapabilitiesProvider] Adding 'Agent.OSArchitecture': 'X64'
+[2019-06-19 05:11:14Z INFO AgentCapabilitiesProvider] Adding 'InteractiveSession': 'False'
+[2019-06-19 05:11:14Z INFO AgentCapabilitiesProvider] Adding 'Agent.Version': '2.152.1'
+[2019-06-19 05:11:14Z INFO AgentCapabilitiesProvider] Adding 'Agent.ComputerName': 'ip-172-31-21-77'
+[2019-06-19 05:11:14Z INFO HostContext] Well known directory 'Bin': '/home/ec2-user/azagent/bin'
+[2019-06-19 05:11:14Z INFO HostContext] Well known directory 'Root': '/home/ec2-user/azagent'
+[2019-06-19 05:11:14Z INFO AgentCapabilitiesProvider] Adding 'Agent.HomeDirectory': '/home/ec2-user/azagent'
+[2019-06-19 05:11:14Z INFO MessageListener] Loading Credentials
+[2019-06-19 05:11:14Z INFO ConfigurationStore] HasCredentials()
+[2019-06-19 05:11:14Z INFO ConfigurationStore] stored True
+[2019-06-19 05:11:14Z INFO CredentialManager] GetCredentialProvider
+[2019-06-19 05:11:14Z INFO CredentialManager] Creating type OAuth
+[2019-06-19 05:11:14Z INFO CredentialManager] Creating credential type: OAuth
+[2019-06-19 05:11:14Z INFO HostContext] Well known directory 'Bin': '/home/ec2-user/azagent/bin'
+[2019-06-19 05:11:14Z INFO HostContext] Well known directory 'Root': '/home/ec2-user/azagent'
+[2019-06-19 05:11:14Z INFO HostContext] Well known config file 'RSACredentials': '/home/ec2-user/azagent/.credentials_rsaparams'
+[2019-06-19 05:11:14Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ec2-user/azagent/.credentials_rsaparams
+[2019-06-19 05:11:14Z INFO Terminal] WRITE LINE: Connecting to the server.
+[2019-06-19 05:11:14Z INFO MessageListener] Attempt to create session.
+[2019-06-19 05:11:14Z INFO MessageListener] Connecting to the Agent Server...
+[2019-06-19 05:11:14Z INFO AgentServer] Establish connection with 100 seconds timeout.
+[2019-06-19 05:11:15Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2019-06-19 05:11:19Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2019-06-19 05:11:21Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2019-06-19 05:11:21Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2019-06-19 05:11:22Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2019-06-19 05:11:23Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2019-06-19 05:11:23Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2019-06-19 05:11:25Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2019-06-19 05:11:26Z INFO MessageListener] VssConnection created
+[2019-06-19 05:11:26Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Basic realm="https://tfsprodsin1.app.visualstudio.com/", Bearer, TFS-Federated
+X-TFS-ProcessId: dac95e15-2ca2-4c18-b56b-88548cca4b48
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: b93a27d8-2d2f-4842-b04e-9744ae382bf0
+X-TFS-Session: 445211e3-9f9f-4b52-be71-0363e0887602
+X-VSS-E2EID: 288b36b7-9d60-4583-8759-e7caaf3a0114
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodsin1.app.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/punjabidrashti/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/punjabidrashti/
+X-VSS-ResourceTenant: 00000000-0000-0000-0000-000000000000
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodsin1.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fpunjabidrashti%2F_apis%2Fdistributedtask%2Fpools%2F9%2Fsessions&redirect=1&aadinmsa=true&hid=be8f5d99-ace8-4bef-a366-b9d4c0fab00b&context=eyJodCI6MiwiaGlkIjoiMDI0MDNhOGUtODhkNy00YzlmLTk1ZWItYzcxMjdjZDBjZTllIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:a892bfef-0287-4640-9f5e-cffc90fbcf94
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-MSEdge-Ref: Ref A: 3C18FC31A5724AF98FD74CB3ADEB9416 Ref B: BL2EDGE0918 Ref C: 2019-06-19T05:11:26Z
+Date: Wed, 19 Jun 2019 05:11:26 GMT
+
+[2019-06-19 05:11:27Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ec2-user/azagent/.credentials_rsaparams
+[2019-06-19 05:11:27Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ec2-user/azagent/.credentials_rsaparams
+[2019-06-19 05:11:28Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2019-06-19 05:11:28Z INFO MessageListener] Session created.
+[2019-06-19 05:11:28Z INFO Terminal] WRITE LINE: 2019-06-19 05:11:28Z: Listening for Jobs
+[2019-06-19 05:11:28Z INFO JobDispatcher] Set agent/worker IPC timeout to 30 seconds.
+[2019-06-19 05:41:38Z INFO MessageListener] No message retrieved from session 'c44c0aae-c07d-437e-8a27-dd7aee897518' within last 30 minutes.
+[2019-06-19 06:06:47Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Basic realm="https://tfsprodsin1.app.visualstudio.com/", Bearer, TFS-Federated
+X-TFS-ProcessId: 40e5fae3-3b01-4093-bc8d-0d85ba4c8892
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 12b7283e-0923-4d3d-b25a-7bc9e673a5a0
+X-TFS-Session: 445211e3-9f9f-4b52-be71-0363e0887602
+X-VSS-E2EID: a0cb8758-ae96-4ca1-b907-f75fe5bee7c1
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodsin1.app.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/punjabidrashti/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/punjabidrashti/
+X-VSS-ResourceTenant: 00000000-0000-0000-0000-000000000000
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodsin1.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fpunjabidrashti%2F_apis%2Fdistributedtask%2Fpools%2F9%2Fmessages%3FsessionId%3Dc44c0aae-c07d-437e-8a27-dd7aee897518&redirect=1&aadinmsa=true&hid=be8f5d99-ace8-4bef-a366-b9d4c0fab00b&context=eyJodCI6MiwiaGlkIjoiMDI0MDNhOGUtODhkNy00YzlmLTk1ZWItYzcxMjdjZDBjZTllIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:a892bfef-0287-4640-9f5e-cffc90fbcf94
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-MSEdge-Ref: Ref A: 5E0CC9EC16B34A1DAF416555260E7C36 Ref B: BL2EDGE0918 Ref C: 2019-06-19T06:06:46Z
+Date: Wed, 19 Jun 2019 06:06:46 GMT
+
+[2019-06-19 06:06:47Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ec2-user/azagent/.credentials_rsaparams
+[2019-06-19 06:06:51Z WARN VisualStudioServices] Attempt 1 of POST request to https://vssps.dev.azure.com/punjabidrashti/_apis/oauth2/token failed (HTTP Status: ServiceUnavailable, AFD Ref: Ref A: AD05A7D57F474DE4A924DAFD129342C2 Ref B: BL2EDGE0316 Ref C: 2019-06-19T06:06:48Z). The operation will be retried in 10.807 seconds.
+[2019-06-19 06:07:03Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2019-06-19 06:07:03Z WARN VisualStudioServices] Retrieving an AAD auth token took a long time (16.3188418 seconds)
+[2019-06-19 06:07:46Z WARN VisualStudioServices] GET request to https://dev.azure.com/punjabidrashti/_apis/distributedtask/pools/9/messages?sessionId=c44c0aae-c07d-437e-8a27-dd7aee897518 timed out after 60 seconds.
+[2019-06-19 06:07:46Z ERR  MessageListener] Catch exception during get next message.
+[2019-06-19 06:07:46Z ERR  MessageListener] System.TimeoutException: The HTTP request timed out after 00:01:00. ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at Microsoft.VisualStudio.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualStudio.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.Agent.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2019-06-19 06:07:46Z INFO MessageListener] Retriable exception: The HTTP request timed out after 00:01:00.
+[2019-06-19 06:07:46Z ERR  Terminal] WRITE ERROR: 2019-06-19 06:07:46Z: Agent connect error: The HTTP request timed out after 00:01:00.. Retrying until reconnected.
+[2019-06-19 06:07:46Z INFO AgentServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2019-06-19 06:07:46Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2019-06-19 06:07:46Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2019-06-19 06:07:48Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2019-06-19 06:07:49Z INFO MessageListener] Sleeping for 25.893 seconds before retrying.
+[2019-06-19 06:09:06Z INFO Terminal] WRITE LINE: 2019-06-19 06:09:06Z: Agent reconnected.
+[2019-06-19 06:12:27Z INFO MessageListener] No message retrieved from session 'c44c0aae-c07d-437e-8a27-dd7aee897518' within last 30 minutes.
+[2019-06-19 06:42:36Z INFO MessageListener] No message retrieved from session 'c44c0aae-c07d-437e-8a27-dd7aee897518' within last 30 minutes.
+[2019-06-19 07:02:43Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Basic realm="https://tfsprodsin1.app.visualstudio.com/", Bearer, TFS-Federated
+X-TFS-ProcessId: 401ddc48-9fde-49dc-88d9-0cccf1fd877f
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 06da13f5-221a-46bf-b59f-0bcce100ac85
+X-TFS-Session: 445211e3-9f9f-4b52-be71-0363e0887602
+X-VSS-E2EID: 748409f7-cb05-441f-812f-ab387489e9ca
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodsin1.app.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/punjabidrashti/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/punjabidrashti/
+X-VSS-ResourceTenant: 00000000-0000-0000-0000-000000000000
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodsin1.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fpunjabidrashti%2F_apis%2Fdistributedtask%2Fpools%2F9%2Fmessages%3FsessionId%3Dc44c0aae-c07d-437e-8a27-dd7aee897518&redirect=1&aadinmsa=true&hid=be8f5d99-ace8-4bef-a366-b9d4c0fab00b&context=eyJodCI6MiwiaGlkIjoiMDI0MDNhOGUtODhkNy00YzlmLTk1ZWItYzcxMjdjZDBjZTllIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:a892bfef-0287-4640-9f5e-cffc90fbcf94
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-MSEdge-Ref: Ref A: AFBEE4AFE371494F8493DEAF476C9509 Ref B: BL2EDGE0718 Ref C: 2019-06-19T07:02:42Z
+Date: Wed, 19 Jun 2019 07:02:42 GMT
+
+[2019-06-19 07:02:43Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ec2-user/azagent/.credentials_rsaparams
+[2019-06-19 07:02:44Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2019-06-19 07:12:48Z INFO MessageListener] No message retrieved from session 'c44c0aae-c07d-437e-8a27-dd7aee897518' within last 30 minutes.
+[2019-06-19 07:42:57Z INFO MessageListener] No message retrieved from session 'c44c0aae-c07d-437e-8a27-dd7aee897518' within last 30 minutes.
+[2019-06-19 07:58:02Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Basic realm="https://tfsprodsin1.app.visualstudio.com/", Bearer, TFS-Federated
+X-TFS-ProcessId: 40e5fae3-3b01-4093-bc8d-0d85ba4c8892
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 12abdca6-0923-4d3d-b25a-7bc9e673a5a0
+X-TFS-Session: 445211e3-9f9f-4b52-be71-0363e0887602
+X-VSS-E2EID: dba5a1ec-aa9e-4ec6-a620-63937b4e4180
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodsin1.app.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/punjabidrashti/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/punjabidrashti/
+X-VSS-ResourceTenant: 00000000-0000-0000-0000-000000000000
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodsin1.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fpunjabidrashti%2F_apis%2Fdistributedtask%2Fpools%2F9%2Fmessages%3FsessionId%3Dc44c0aae-c07d-437e-8a27-dd7aee897518&redirect=1&aadinmsa=true&hid=be8f5d99-ace8-4bef-a366-b9d4c0fab00b&context=eyJodCI6MiwiaGlkIjoiMDI0MDNhOGUtODhkNy00YzlmLTk1ZWItYzcxMjdjZDBjZTllIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:a892bfef-0287-4640-9f5e-cffc90fbcf94
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-MSEdge-Ref: Ref A: A2EFEE362DC94C2D82FE72AA651D47E4 Ref B: BL2EDGE0718 Ref C: 2019-06-19T07:58:02Z
+Date: Wed, 19 Jun 2019 07:58:02 GMT
+
+[2019-06-19 07:58:02Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ec2-user/azagent/.credentials_rsaparams
+[2019-06-19 07:58:05Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2019-06-19 07:58:05Z WARN VisualStudioServices] Retrieving an AAD auth token took a long time (2.5024157 seconds)
+[2019-06-19 08:13:09Z INFO MessageListener] No message retrieved from session 'c44c0aae-c07d-437e-8a27-dd7aee897518' within last 30 minutes.
+[2019-06-19 08:43:19Z INFO MessageListener] No message retrieved from session 'c44c0aae-c07d-437e-8a27-dd7aee897518' within last 30 minutes.
+[2019-06-19 08:53:22Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Basic realm="https://tfsprodsin1.app.visualstudio.com/", Bearer, TFS-Federated
+X-TFS-ProcessId: 5573a6f0-15aa-4044-90cf-31a04aefbc91
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 30c70624-5f2b-4f1d-9e56-7b803a0c7142
+X-TFS-Session: 445211e3-9f9f-4b52-be71-0363e0887602
+X-VSS-E2EID: 1c1a726a-c8b3-477d-977d-d3916a37fe3d
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodsin1.app.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/punjabidrashti/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/punjabidrashti/
+X-VSS-ResourceTenant: 00000000-0000-0000-0000-000000000000
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodsin1.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fpunjabidrashti%2F_apis%2Fdistributedtask%2Fpools%2F9%2Fmessages%3FsessionId%3Dc44c0aae-c07d-437e-8a27-dd7aee897518&redirect=1&aadinmsa=true&hid=be8f5d99-ace8-4bef-a366-b9d4c0fab00b&context=eyJodCI6MiwiaGlkIjoiMDI0MDNhOGUtODhkNy00YzlmLTk1ZWItYzcxMjdjZDBjZTllIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:a892bfef-0287-4640-9f5e-cffc90fbcf94
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-MSEdge-Ref: Ref A: 8A68AC1DC7594172A18B3DA8CA9F7F35 Ref B: BL2EDGE0718 Ref C: 2019-06-19T08:53:22Z
+Date: Wed, 19 Jun 2019 08:53:21 GMT
+
+[2019-06-19 08:53:22Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ec2-user/azagent/.credentials_rsaparams
+[2019-06-19 08:53:25Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2019-06-19 08:53:25Z WARN VisualStudioServices] Retrieving an AAD auth token took a long time (2.6662781 seconds)
+[2019-06-19 09:13:31Z INFO MessageListener] No message retrieved from session 'c44c0aae-c07d-437e-8a27-dd7aee897518' within last 30 minutes.
+[2019-06-19 09:43:40Z INFO MessageListener] No message retrieved from session 'c44c0aae-c07d-437e-8a27-dd7aee897518' within last 30 minutes.
+[2019-06-19 09:48:42Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Basic realm="https://tfsprodsin1.app.visualstudio.com/", Bearer, TFS-Federated
+X-TFS-ProcessId: 401ddc48-9fde-49dc-88d9-0cccf1fd877f
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 06a8b375-221a-46bf-b59f-0bcce100ac85
+X-TFS-Session: 445211e3-9f9f-4b52-be71-0363e0887602
+X-VSS-E2EID: 6c80f91e-a95a-4663-a74b-415fe53f50da
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodsin1.app.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/punjabidrashti/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/punjabidrashti/
+X-VSS-ResourceTenant: 00000000-0000-0000-0000-000000000000
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodsin1.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fpunjabidrashti%2F_apis%2Fdistributedtask%2Fpools%2F9%2Fmessages%3FsessionId%3Dc44c0aae-c07d-437e-8a27-dd7aee897518&redirect=1&aadinmsa=true&hid=be8f5d99-ace8-4bef-a366-b9d4c0fab00b&context=eyJodCI6MiwiaGlkIjoiMDI0MDNhOGUtODhkNy00YzlmLTk1ZWItYzcxMjdjZDBjZTllIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:a892bfef-0287-4640-9f5e-cffc90fbcf94
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-MSEdge-Ref: Ref A: 84A5169CE0D7443AA83F51134708831E Ref B: BL2EDGE0718 Ref C: 2019-06-19T09:48:41Z
+Date: Wed, 19 Jun 2019 09:48:42 GMT
+
+[2019-06-19 09:48:42Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ec2-user/azagent/.credentials_rsaparams
+[2019-06-19 09:48:44Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2019-06-19 09:48:44Z WARN VisualStudioServices] Retrieving an AAD auth token took a long time (2.544295 seconds)
+[2019-06-19 10:13:52Z INFO MessageListener] No message retrieved from session 'c44c0aae-c07d-437e-8a27-dd7aee897518' within last 30 minutes.
+[2019-06-19 10:44:01Z INFO MessageListener] No message retrieved from session 'c44c0aae-c07d-437e-8a27-dd7aee897518' within last 30 minutes.
+[2019-06-19 10:44:01Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Basic realm="https://tfsprodsin1.app.visualstudio.com/", Bearer, TFS-Federated
+X-TFS-ProcessId: 401ddc48-9fde-49dc-88d9-0cccf1fd877f
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 06a2efa4-221a-46bf-b59f-0bcce100ac85
+X-TFS-Session: 445211e3-9f9f-4b52-be71-0363e0887602
+X-VSS-E2EID: 1265f8fe-676c-4fbd-ac88-d57f2889f4f7
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodsin1.app.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/punjabidrashti/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/punjabidrashti/
+X-VSS-ResourceTenant: 00000000-0000-0000-0000-000000000000
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodsin1.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fpunjabidrashti%2F_apis%2Fdistributedtask%2Fpools%2F9%2Fmessages%3FsessionId%3Dc44c0aae-c07d-437e-8a27-dd7aee897518&redirect=1&aadinmsa=true&hid=be8f5d99-ace8-4bef-a366-b9d4c0fab00b&context=eyJodCI6MiwiaGlkIjoiMDI0MDNhOGUtODhkNy00YzlmLTk1ZWItYzcxMjdjZDBjZTllIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:a892bfef-0287-4640-9f5e-cffc90fbcf94
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-MSEdge-Ref: Ref A: E6C853C1ED0B4EAE94E1AA5E1D2F017C Ref B: BL2EDGE0718 Ref C: 2019-06-19T10:44:01Z
+Date: Wed, 19 Jun 2019 10:44:00 GMT
+
+[2019-06-19 10:44:01Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ec2-user/azagent/.credentials_rsaparams
+[2019-06-19 10:44:03Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2019-06-19 10:44:03Z WARN VisualStudioServices] Retrieving an AAD auth token took a long time (2.5778855 seconds)
+[2019-06-19 11:14:13Z INFO MessageListener] No message retrieved from session 'c44c0aae-c07d-437e-8a27-dd7aee897518' within last 30 minutes.
+[2019-06-19 11:39:21Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Basic realm="https://tfsprodsin1.app.visualstudio.com/", Bearer, TFS-Federated
+X-TFS-ProcessId: dac95e15-2ca2-4c18-b56b-88548cca4b48
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: b952e0ad-2d2f-4842-b04e-9744ae382bf0
+X-TFS-Session: 445211e3-9f9f-4b52-be71-0363e0887602
+X-VSS-E2EID: fe91c32c-28a3-421e-b887-5b561e8da518
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodsin1.app.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/punjabidrashti/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/punjabidrashti/
+X-VSS-ResourceTenant: 00000000-0000-0000-0000-000000000000
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodsin1.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fpunjabidrashti%2F_apis%2Fdistributedtask%2Fpools%2F9%2Fmessages%3FsessionId%3Dc44c0aae-c07d-437e-8a27-dd7aee897518&redirect=1&aadinmsa=true&hid=be8f5d99-ace8-4bef-a366-b9d4c0fab00b&context=eyJodCI6MiwiaGlkIjoiMDI0MDNhOGUtODhkNy00YzlmLTk1ZWItYzcxMjdjZDBjZTllIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:a892bfef-0287-4640-9f5e-cffc90fbcf94
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-MSEdge-Ref: Ref A: F52ED3642B924012A9A73525227F38D3 Ref B: BL2EDGE0718 Ref C: 2019-06-19T11:39:21Z
+Date: Wed, 19 Jun 2019 11:39:21 GMT
+
+[2019-06-19 11:39:21Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ec2-user/azagent/.credentials_rsaparams
+[2019-06-19 11:39:23Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2019-06-19 11:39:23Z WARN VisualStudioServices] Retrieving an AAD auth token took a long time (2.5261766 seconds)
+[2019-06-19 11:44:25Z INFO MessageListener] No message retrieved from session 'c44c0aae-c07d-437e-8a27-dd7aee897518' within last 30 minutes.
+[2019-06-19 12:14:34Z INFO MessageListener] No message retrieved from session 'c44c0aae-c07d-437e-8a27-dd7aee897518' within last 30 minutes.
+[2019-06-19 12:34:41Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Basic realm="https://tfsprodsin1.app.visualstudio.com/", Bearer, TFS-Federated
+X-TFS-ProcessId: 5573a6f0-15aa-4044-90cf-31a04aefbc91
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 30af93d0-5f2b-4f1d-9e56-7b803a0c7142
+X-TFS-Session: 445211e3-9f9f-4b52-be71-0363e0887602
+X-VSS-E2EID: 81fdadd8-01f7-49bb-9974-1012c1d3f61f
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodsin1.app.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/punjabidrashti/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/punjabidrashti/
+X-VSS-ResourceTenant: 00000000-0000-0000-0000-000000000000
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodsin1.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fpunjabidrashti%2F_apis%2Fdistributedtask%2Fpools%2F9%2Fmessages%3FsessionId%3Dc44c0aae-c07d-437e-8a27-dd7aee897518&redirect=1&aadinmsa=true&hid=be8f5d99-ace8-4bef-a366-b9d4c0fab00b&context=eyJodCI6MiwiaGlkIjoiMDI0MDNhOGUtODhkNy00YzlmLTk1ZWItYzcxMjdjZDBjZTllIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:a892bfef-0287-4640-9f5e-cffc90fbcf94
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-MSEdge-Ref: Ref A: 3777E1FDAEE344779A0304627CB03DA9 Ref B: BL2EDGE0718 Ref C: 2019-06-19T12:34:41Z
+Date: Wed, 19 Jun 2019 12:34:40 GMT
+
+[2019-06-19 12:34:41Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ec2-user/azagent/.credentials_rsaparams
+[2019-06-19 12:34:44Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2019-06-19 12:34:44Z WARN VisualStudioServices] Retrieving an AAD auth token took a long time (2.689227 seconds)
+[2019-06-19 12:44:47Z INFO MessageListener] No message retrieved from session 'c44c0aae-c07d-437e-8a27-dd7aee897518' within last 30 minutes.
+[2019-06-19 13:14:55Z INFO MessageListener] No message retrieved from session 'c44c0aae-c07d-437e-8a27-dd7aee897518' within last 30 minutes.
+[2019-06-19 13:30:01Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Basic realm="https://tfsprodsin1.app.visualstudio.com/", Bearer, TFS-Federated
+X-TFS-ProcessId: 5573a6f0-15aa-4044-90cf-31a04aefbc91
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 30ab633b-5f2b-4f1d-9e56-7b803a0c7142
+X-TFS-Session: 445211e3-9f9f-4b52-be71-0363e0887602
+X-VSS-E2EID: 412f299c-3949-4d60-b1b3-a4c45f673cb2
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodsin1.app.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/punjabidrashti/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/punjabidrashti/
+X-VSS-ResourceTenant: 00000000-0000-0000-0000-000000000000
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodsin1.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fpunjabidrashti%2F_apis%2Fdistributedtask%2Fpools%2F9%2Fmessages%3FsessionId%3Dc44c0aae-c07d-437e-8a27-dd7aee897518&redirect=1&aadinmsa=true&hid=be8f5d99-ace8-4bef-a366-b9d4c0fab00b&context=eyJodCI6MiwiaGlkIjoiMDI0MDNhOGUtODhkNy00YzlmLTk1ZWItYzcxMjdjZDBjZTllIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:a892bfef-0287-4640-9f5e-cffc90fbcf94
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-MSEdge-Ref: Ref A: 57A329890C304AE5AC39D5DC1A36CE5D Ref B: BL2EDGE0718 Ref C: 2019-06-19T13:30:00Z
+Date: Wed, 19 Jun 2019 13:30:00 GMT
+
+[2019-06-19 13:30:01Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ec2-user/azagent/.credentials_rsaparams
+[2019-06-19 13:30:02Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2019-06-19 13:45:07Z INFO MessageListener] No message retrieved from session 'c44c0aae-c07d-437e-8a27-dd7aee897518' within last 30 minutes.
+[2019-06-19 14:15:19Z INFO MessageListener] No message retrieved from session 'c44c0aae-c07d-437e-8a27-dd7aee897518' within last 30 minutes.
+[2019-06-19 14:25:23Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Basic realm="https://tfsprodsin1.app.visualstudio.com/", Bearer, TFS-Federated
+X-TFS-ProcessId: dac95e15-2ca2-4c18-b56b-88548cca4b48
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: b943555d-2d2f-4842-b04e-9744ae382bf0
+X-TFS-Session: 445211e3-9f9f-4b52-be71-0363e0887602
+X-VSS-E2EID: 1f7d474f-6371-454b-b84a-b70aed3fe9a6
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodsin1.app.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/punjabidrashti/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/punjabidrashti/
+X-VSS-ResourceTenant: 00000000-0000-0000-0000-000000000000
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodsin1.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fpunjabidrashti%2F_apis%2Fdistributedtask%2Fpools%2F9%2Fmessages%3FsessionId%3Dc44c0aae-c07d-437e-8a27-dd7aee897518&redirect=1&aadinmsa=true&hid=be8f5d99-ace8-4bef-a366-b9d4c0fab00b&context=eyJodCI6MiwiaGlkIjoiMDI0MDNhOGUtODhkNy00YzlmLTk1ZWItYzcxMjdjZDBjZTllIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:a892bfef-0287-4640-9f5e-cffc90fbcf94
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-MSEdge-Ref: Ref A: 6BC1A4B920764BA689EB2C644BBC6533 Ref B: BL2EDGE0315 Ref C: 2019-06-19T14:25:22Z
+Date: Wed, 19 Jun 2019 14:25:22 GMT
+
+[2019-06-19 14:25:23Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ec2-user/azagent/.credentials_rsaparams
+[2019-06-19 14:25:25Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2019-06-19 14:25:25Z WARN VisualStudioServices] Retrieving an AAD auth token took a long time (2.5451887 seconds)
+[2019-06-19 14:45:31Z INFO MessageListener] No message retrieved from session 'c44c0aae-c07d-437e-8a27-dd7aee897518' within last 30 minutes.
+[2019-06-19 15:15:40Z INFO MessageListener] No message retrieved from session 'c44c0aae-c07d-437e-8a27-dd7aee897518' within last 30 minutes.
+[2019-06-19 15:20:42Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Basic realm="https://tfsprodsin1.app.visualstudio.com/", Bearer, TFS-Federated
+X-TFS-ProcessId: 5573a6f0-15aa-4044-90cf-31a04aefbc91
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 309c84c3-5f2b-4f1d-9e56-7b803a0c7142
+X-TFS-Session: 445211e3-9f9f-4b52-be71-0363e0887602
+X-VSS-E2EID: 71f1d049-d7ab-4b8d-8c2a-80e2cf06747f
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodsin1.app.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/punjabidrashti/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/punjabidrashti/
+X-VSS-ResourceTenant: 00000000-0000-0000-0000-000000000000
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodsin1.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fpunjabidrashti%2F_apis%2Fdistributedtask%2Fpools%2F9%2Fmessages%3FsessionId%3Dc44c0aae-c07d-437e-8a27-dd7aee897518&redirect=1&aadinmsa=true&hid=be8f5d99-ace8-4bef-a366-b9d4c0fab00b&context=eyJodCI6MiwiaGlkIjoiMDI0MDNhOGUtODhkNy00YzlmLTk1ZWItYzcxMjdjZDBjZTllIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:a892bfef-0287-4640-9f5e-cffc90fbcf94
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-MSEdge-Ref: Ref A: DDEBBAAC368D403688E5A2236FD0D3ED Ref B: BL2EDGE0315 Ref C: 2019-06-19T15:20:42Z
+Date: Wed, 19 Jun 2019 15:20:42 GMT
+
+[2019-06-19 15:20:42Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ec2-user/azagent/.credentials_rsaparams
+[2019-06-19 15:20:45Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2019-06-19 15:20:45Z WARN VisualStudioServices] Retrieving an AAD auth token took a long time (2.5380072 seconds)
+[2019-06-19 15:45:52Z INFO MessageListener] No message retrieved from session 'c44c0aae-c07d-437e-8a27-dd7aee897518' within last 30 minutes.
+[2019-06-19 16:08:17Z INFO Terminal] WRITE LINE: Exiting...
+[2019-06-19 16:08:17Z INFO ConfigurationStore] IsServiceConfigured()
+[2019-06-19 16:08:17Z INFO ConfigurationStore] IsServiceConfigured: True
+[2019-06-19 16:08:17Z INFO Agent] Received Ctrl-C signal, stop agent.listener and agent.worker.
+[2019-06-19 16:08:17Z INFO HostContext] Agent will be shutdown for UserCancelled
+[2019-06-19 16:08:17Z WARN VisualStudioServices] GET request to https://dev.azure.com/punjabidrashti/_apis/distributedtask/pools/9/messages?sessionId=c44c0aae-c07d-437e-8a27-dd7aee897518 has been cancelled.
+[2019-06-19 16:08:17Z INFO MessageListener] Get next message has been cancelled.
+[2019-06-19 16:08:17Z INFO JobDispatcher] Shutting down JobDispatcher. Make sure all WorkerDispatcher has finished.
+[2019-06-19 16:08:18Z INFO AgentProcess] Agent execution been cancelled.
